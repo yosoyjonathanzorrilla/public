@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entidad>
+  <estadoCivil>
+    <codigo>C</codigo>
+    <descripcion>Casado(a)</descripcion>
+  </estadoCivil>
+<estadoCivil>
+    <codigo>D</codigo>
+    <descripcion>Divorciado(a)</descripcion>
+</estadoCivil>
+<estadoCivil>
+    <codigo>E</codigo>
+    <descripcion>Empresarial</descripcion>
+</estadoCivil>
+<estadoCivil>
+    <codigo>N</codigo>
+    <descripcion>No determinado</descripcion>
+</estadoCivil>
+<estadoCivil>
+    <codigo>S</codigo>
+    <descripcion>Soltero(a)</descripcion>
+</estadoCivil>
+<estadoCivil>
+    <codigo>U</codigo>
+    <descripcion>Union Libre</descripcion>
+</estadoCivil>
+<estadoCivil>
+    <codigo>V</codigo>
+    <descripcion>Viudo(a)</descripcion>
+</estadoCivil>
+</entidad>
