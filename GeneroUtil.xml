@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <genero>
+      <codigo>M</codigo>
+      <descripcion>Masculino</descripcion>
+      <esActivo>S</esActivo>
+   </genero>
+   <genero>
+      <codigo>F</codigo>
+      <descripcion>Femenino</descripcion>
+      <esActivo>S</esActivo>
+   </genero>
+</entidad>
