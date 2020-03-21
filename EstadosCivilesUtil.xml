@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><entidad><estadoCivil><codigo>C</codigo><descripcion>Casado(a)</descripcion><esActivo>S</esActivo></estadoCivil>	
+<?xml version="1.0" encoding="utf-8" ?><entidad><estadoCivil><codigo>C</codigo><descripcion>Casado(a)</descripcion><esActivo>N</esActivo></estadoCivil>	
 <estadoCivil><codigo>D</codigo><descripcion>Divorciado(a)</descripcion><esActivo>S</esActivo></estadoCivil>	
 <estadoCivil><codigo>E</codigo><descripcion>Empresarial</descripcion><esActivo>S</esActivo></estadoCivil>	
 <estadoCivil><codigo>N</codigo><descripcion>No determinado</descripcion><esActivo>S</esActivo></estadoCivil>	
