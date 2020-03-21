@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <tipoTrabajo>
+      <codigo>A</codigo>
+      <descripcion>Arrendatarios</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+   <tipoTrabajo>
+      <codigo>C</codigo>
+      <descripcion>Consultores</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+   <tipoTrabajo>
+      <codigo>D</codigo>
+      <descripcion>Dependiente</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+   <tipoTrabajo>
+      <codigo>I</codigo>
+      <descripcion>Independiente</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+   <tipoTrabajo>
+      <codigo>J</codigo>
+      <descripcion>Jubilado</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+   <tipoTrabajo>
+      <codigo>T</codigo>
+      <descripcion>Transportistas</descripcion>
+      <esActivo>S</esActivo>
+   </tipoTrabajo>
+</entidad>

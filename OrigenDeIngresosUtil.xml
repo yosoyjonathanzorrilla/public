@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <origenIngresos>
+      <codigo>A</codigo>
+      <descripcion>Ama de casa/Estudiande</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>B</codigo>
+      <descripcion>Empleado público</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>H</codigo>
+      <descripcion>Jubilado</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>I</codigo>
+      <descripcion>Independiente</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>M</codigo>
+      <descripcion>Remesas del Exterior</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>R</codigo>
+      <descripcion>Rentista</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+   <origenIngresos>
+      <codigo>V</codigo>
+      <descripcion>Empleado privado</descripcion>
+      <esActivo>S</esActivo>
+   </origenIngresos>
+</entidad>

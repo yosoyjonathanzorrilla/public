@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <parentesco>
+      <codigo>01</codigo>
+      <descripcion>Padre</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>02</codigo>
+      <descripcion>Madre</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>03</codigo>
+      <descripcion>Hermano(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>04</codigo>
+      <descripcion>Primo(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>05</codigo>
+      <descripcion>Tio(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>06</codigo>
+      <descripcion>Sobrino(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>07</codigo>
+      <descripcion>Esposa(o)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>08</codigo>
+      <descripcion>Cuñado</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>09</codigo>
+      <descripcion>Yerno (Nuera)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>10</codigo>
+      <descripcion>Suegro(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>11</codigo>
+      <descripcion>Hijo(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>12</codigo>
+      <descripcion>Amigo(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>13</codigo>
+      <descripcion>Abuelo(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>14</codigo>
+      <descripcion>Novio (a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>15</codigo>
+      <descripcion>Nieto (a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>16</codigo>
+      <descripcion>Compañero de Trabajo</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>18</codigo>
+      <descripcion>COMADRE</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>19</codigo>
+      <descripcion>TIO (A) POLITICA</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+   <parentesco>
+      <codigo>21</codigo>
+      <descripcion>Primo(a) Politico(a)</descripcion>
+      <esActivo>S</esActivo>
+   </parentesco>
+</entidad>

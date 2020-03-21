@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <telefono>
+      <codigo>01</codigo>
+      <descripcion>Casa</descripcion>
+      <esActivo>S</esActivo>
+   </telefono>
+   <telefono>
+      <codigo>02</codigo>
+      <descripcion>Oficina</descripcion>
+      <esActivo>S</esActivo>
+   </telefono>
+   <telefono>
+      <codigo>08</codigo>
+      <descripcion>Celular</descripcion>
+      <esActivo>S</esActivo>
+   </telefono>
+</entidad>
