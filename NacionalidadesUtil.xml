@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entidad>
+<nacionalidad>	<codigo>	01	</codigo>	<descripcion>	ECUATORIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	02	</codigo>	<descripcion>	COLOMBIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	03	</codigo>	<descripcion>	VENEZOLANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	04	</codigo>	<descripcion>	BRASILEÑA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	05	</codigo>	<descripcion>	ARGENTINA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	06	</codigo>	<descripcion>	ESPAÑOLA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	07	</codigo>	<descripcion>	CHILENA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	08	</codigo>	<descripcion>	PERUANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	09	</codigo>	<descripcion>	COREANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	10	</codigo>	<descripcion>	CHINA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	100	</codigo>	<descripcion>	IRANI	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	101	</codigo>	<descripcion>	RUSA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	102	</codigo>	<descripcion>	DOMINICANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	103	</codigo>	<descripcion>	FRANCESA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	104	</codigo>	<descripcion>	SALVADOREÑA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	105	</codigo>	<descripcion>	BANGLADESH	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	106	</codigo>	<descripcion>	CANADIENSE	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	107	</codigo>	<descripcion>	SUDANES	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	108	</codigo>	<descripcion>	FILIPINA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	109	</codigo>	<descripcion>	PAKISTANI	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	11	</codigo>	<descripcion>	AMERICANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	110	</codigo>	<descripcion>	LIBANES	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	111	</codigo>	<descripcion>	UCRANIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	112	</codigo>	<descripcion>	COSTARRICENSE	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	113	</codigo>	<descripcion>	PANAMEÑA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	114	</codigo>	<descripcion>	RUMANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	115	</codigo>	<descripcion>	CABOVERDIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	116	</codigo>	<descripcion>	PARAGUAYA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	117	</codigo>	<descripcion>	NIGERIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	118	</codigo>	<descripcion>	HOLANDESA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	119	</codigo>	<descripcion>	SUDAFRICANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	12	</codigo>	<descripcion>	CUBANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	120	</codigo>	<descripcion>	HAITIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	121	</codigo>	<descripcion>	YEMENITA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	122	</codigo>	<descripcion>	SIRIO	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	123	</codigo>	<descripcion>	LETON	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	124	</codigo>	<descripcion>	NICARAGUENSE	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	125	</codigo>	<descripcion>	AUSTRALIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	126	</codigo>	<descripcion>	PALESTINA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	127	</codigo>	<descripcion>	BENINES(A)	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	13	</codigo>	<descripcion>	MEXICANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	14	</codigo>	<descripcion>	URUGUAYA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	15	</codigo>	<descripcion>	JORDANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	16	</codigo>	<descripcion>	ITALIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	17	</codigo>	<descripcion>	PORTUGUESA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	18	</codigo>	<descripcion>	HONDUREÑA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	19	</codigo>	<descripcion>	ALEMANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	20	</codigo>	<descripcion>	BOLIVIANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	21	</codigo>	<descripcion>	TAIWANES	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	22	</codigo>	<descripcion>	AFGANA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	23	</codigo>	<descripcion>	HINDU	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	24	</codigo>	<descripcion>	ARGELINA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	25	</codigo>	<descripcion>	INGLESA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	26	</codigo>	<descripcion>	INDIA	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	27	</codigo>	<descripcion>	MALIENSE	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	28	</codigo>	<descripcion>	HUNGARO(A)	</descripcion>	</nacionalidad>
+<nacionalidad>	<codigo>	99	</codigo>	<descripcion>	GUATEMALTECA	</descripcion>	</nacionalidad>
+
+  
+</entidad>
