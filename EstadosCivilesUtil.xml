@@ -1,31 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<entidad>
-  <estadoCivil>
-    <codigo>C</codigo>
-    <descripcion>Casado(a)</descripcion>
-  </estadoCivil>
-<estadoCivil>
-    <codigo>D</codigo>
-    <descripcion>Divorciado(a)</descripcion>
-</estadoCivil>
-<estadoCivil>
-    <codigo>E</codigo>
-    <descripcion>Empresarial</descripcion>
-</estadoCivil>
-<estadoCivil>
-    <codigo>N</codigo>
-    <descripcion>No determinado</descripcion>
-</estadoCivil>
-<estadoCivil>
-    <codigo>S</codigo>
-    <descripcion>Soltero(a)</descripcion>
-</estadoCivil>
-<estadoCivil>
-    <codigo>U</codigo>
-    <descripcion>Union Libre</descripcion>
-</estadoCivil>
-<estadoCivil>
-    <codigo>V</codigo>
-    <descripcion>Viudo(a)</descripcion>
-</estadoCivil>
-</entidad>
+<?xml version="1.0" encoding="utf-8" ?><entidad><estadoCivil><codigo>C</codigo><descripcion>Casado(a)</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>D</codigo><descripcion>Divorciado(a)</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>E</codigo><descripcion>Empresarial</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>N</codigo><descripcion>No determinado</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>S</codigo><descripcion>Soltero(a)</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>U</codigo><descripcion>Union Libre</descripcion><esActivo>S</esActivo></estadoCivil>	
+<estadoCivil><codigo>V</codigo><descripcion>Viudo(a)</descripcion><esActivo>S</esActivo></estadoCivil></entidad>
