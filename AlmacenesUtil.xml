@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <almacen>
+      <codigo>1</codigo>
+      <descripcion>Sur</descripcion>
+      <esActivo>S</esActivo>
+   </almacen>
+   <almacen>
+      <codigo>2</codigo>
+      <descripcion>Norte</descripcion>
+      <esActivo>S</esActivo>
+   </almacen>
+</entidad>

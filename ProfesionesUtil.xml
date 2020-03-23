@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <profesiones>
+      <codigo>1</codigo>
+      <descripcion>Bodegero</descripcion>
+      <esActivo>S</esActivo>
+   </profesiones>
+   <profesiones>
+      <codigo>2</codigo>
+      <descripcion>Ingeniero</descripcion>
+      <esActivo>S</esActivo>
+   </profesiones>
+</entidad>
