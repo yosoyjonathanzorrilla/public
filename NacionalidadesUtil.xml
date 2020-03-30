@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entidad>
    <nacionalidad>
-      <codigo>01</codigo>
+      <codigo>1</codigo>
       <descripcion>ECUATORIANA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>02</codigo>
+      <codigo>2</codigo>
       <descripcion>COLOMBIANA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>03</codigo>
+      <codigo>3</codigo>
       <descripcion>VENEZOLANA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>04</codigo>
+      <codigo>4</codigo>
       <descripcion>BRASILEÑA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>05</codigo>
+      <codigo>5</codigo>
       <descripcion>ARGENTINA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>06</codigo>
+      <codigo>6</codigo>
       <descripcion>ESPAÑOLA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>07</codigo>
+      <codigo>7</codigo>
       <descripcion>CHILENA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>08</codigo>
+      <codigo>8</codigo>
       <descripcion>PERUANA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
    <nacionalidad>
-      <codigo>09</codigo>
+      <codigo>9</codigo>
       <descripcion>COREANA</descripcion>
       <esActivo>S</esActivo>
    </nacionalidad>
