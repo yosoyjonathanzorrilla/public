@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidad>
+   <tiposVivienda>
+      <codigo>01</codigo>
+      <descripcion>PROPIA</descripcion>
+      <esActivo>S</esActivo>
+   </tiposVivienda>
+   <tiposVivienda>
+      <codigo>02</codigo>
+      <descripcion>ALQUILADA</descripcion>
+      <esActivo>S</esActivo>
+   </tiposVivienda>
+</entidad>
