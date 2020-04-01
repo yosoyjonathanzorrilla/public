@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entidad>
    <direccion>
-      <codigo>1</codigo>
+      <codigo>01</codigo>
       <descripcion>Casa</descripcion>
       <esActivo>S</esActivo>
    </direccion>
    <direccion>
-      <codigo>2</codigo>
+      <codigo>02</codigo>
       <descripcion>Oficina</descripcion>
       <esActivo>S</esActivo>
    </direccion>
