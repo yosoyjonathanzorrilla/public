@@ -1,0 +1,5640 @@
+@charset "utf-8";
+/* CSS Document 
+Act: Oscar Rosales
+Fecha:2020-04-01
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.pyccaMenuEscritorio--sticky .pyccaMenuEscritorio__logo img {
+    width: 155%;
+    padding: 15px 10px;
+}
+.headerSite__mainLogo img {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 35px;
+}
+.headerSite__helpLinks__customerService {
+    margin-bottom: 0px;
+}
+.headerSite__helpLinks {
+    border-top: solid 2px #1b417c;
+    padding: 0px;
+    background-color: #019fa5;
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff;
+    
+    font-size: 10px;
+    height: 30px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.headerSite__contHeader {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.headerSite__helpLinks a {
+    color: #ffffff;
+    
+}
+.headerSite__helpLinks__directCredit span {
+   
+    color: #ffffff;
+}
+.headerSite__helpLinks__customerService::before {
+  
+    margin-right: 4px;
+}
+.headerSite__helpLinks__storesLink span {
+    margin-bottom: 1px;
+}
+.headerSite__helpLinks__phone span, .headerSite__helpLinks__whatsapp span {
+       margin-bottom: 1px;
+}
+.headerSite__helpLinks__directCredit::before {
+    content: "\e906";
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
+.headerSite__helpLinks__wishList::before {
+    content: "\e907";
+    color: #ffffff;
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 18px;
+    vertical-align: middle;
+}
+.headerSite__helpLinks__myShoping::before {
+    content: "\e908";
+    color: #6b6a6a;
+    font-size: 27px;
+    display: inline-block;
+    font-family: "icomoon";
+    vertical-align: middle;
+}
+.headerSite__helpLinks__myShoping span {
+    color: #6f6a6a;
+}
+.headerSite__helpLinks__customerService__subList {
+       background-color: #00b8bf;
+    position: absolute;
+    display: none;
+        z-index: 1000;
+    padding: 9px 10px 0px 10px;
+    width: 215px;
+    text-transform: none;
+    left: -15px;
+    top: 22px;
+    border-radius: 3px;
+    border-bottom: solid 1px #b2b2b2;
+    box-shadow: 1px 1px 10px -2px #00000080;
+    text-align: center;
+}
+.headerSite__helpLinks__customerService__subList__item spam {
+    font-size: 14px;
+}
+.bannerPromo {
+    background: #00417d;
+    margin: 0px 0;
+    text-align: center;
+   /* color: #FFF;*/
+    
+  /*  padding-top: 5px;*/
+}
+p.bannerPromo__message {
+    margin: 0px;
+   /* background: #ed285e;*/
+    padding: 5px 0px 5px;
+}
+strong.EnvioGratis {
+    letter-spacing: 2px;
+}
+.headerSite__minicartBox__cartSummary__cartQty {
+    /*background-color: #c7433e;*/
+    border-radius: 50%;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    width: 25px;
+}
+.headerSite__minicartBox__cartSummary__cartQty {
+    background-color: #c7433e;
+    border-radius: 50%;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    width: 25px;
+}
+.headerSite__minicartBox__cartSummary::before {
+    content: "\e901";
+    color: #c7433e;
+    font-family: "icomoon";
+    font-size: 27px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    display: none;
+
+}
+.CarritoNew::before {
+    content: "\e901";
+    color: #c7433e;
+    font-family: "icomoon";
+    font-size: 27px;
+    left: 0;
+    position: absolute;
+    top: -7px;
+
+}
+
+
+.headerSite__minicartBox__checkoutLink:after {
+    content: "\e914";
+    color: #c7433f;
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 14px;
+    padding-left: 9px;
+    vertical-align: baseline;
+}
+.headerSite__tabletDesktopSearch .busca input[type="text"] {
+    border: none;
+    color: #6d6d6d;
+    height: 40px;
+    border-radius: 3px;
+    padding: 0 15px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #eaeaea;
+    background: #fdfdfd;
+}
+.headerSite__tabletDesktopSearch {
+    vertical-align: middle;
+    padding-left: 80px;
+    width: 66%;
+    padding-right: 35px;
+}
+.pyccaMenuEscritorio__menuList__item span a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #6b6a6a;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+.pyccaMenuEscritorio__menuList__item span a:hover{
+    text-decoration: none;
+    color: #3e3e3e; 
+}
+
+.pyccaMenuEscritorio__menuList__item:first-child , .pyccaMenuEscritorio__menuList__item {
+    border: 0px;
+}
+.pyccaMenuEscritorio__menuList__item {
+    border: 0px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.pyccaMenuEscritorio__recargas {
+    position: absolute;
+    top: -15px;
+    right: -1%;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    border-image: initial;
+    padding: 2px 0px;
+    border-radius: 1px;
+    background: rgb(255, 255, 255);
+}
+.btnImg img {
+    width: 100%;
+    height: auto;
+}
+.RegalosBTN {
+    width: 150px;
+    position: absolute;
+    top: -15px;
+    right: 8%;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    border-image: initial;
+    padding: 0px;
+    border-radius: 1px;
+    background: rgb(255, 255, 255);
+}
+.RegalosBTN img {
+    width: 100%;
+}
+.RegalosBTN a.pyccaMenuEscritorio__recargas__link {
+    border: 0px;
+}
+.pyccaMenuEscritorio__recargas__link img {
+    width:84%;
+    height: auto;
+}
+.BannerBusquedaDestkVideo {
+    margin: auto;
+    max-width: 1350px;
+    display: inline-block;
+}
+img.mediaimgMarca {
+    float: left;
+    width: 50%;
+}
+.mediaVIdeo{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    max-width: 692px;
+    float: right;
+}
+.itemBannerBusquedaDestk.BannerBusquedaDestkVideo{
+    display: inline-block;
+}
+.itemBannerMob.BannerBusquedaDestkVideo {
+    display: none;
+}
+.pyccaMenuEscritorio__recargas__link {
+    color: #014d98;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    font-weight: 900;
+    position: relative;    
+    margin-left: 15px;
+    left: 0px;
+    border-bottom: 0px solid #c74340;
+}
+.headerSite {
+    
+    background-color: #ffffff;
+    
+}
+.pyccaMenuEscritorio__recargas__link:hover {
+    color: #c7433e;
+    text-decoration: none;
+}
+.pyccaMenuEscritorio {
+    background: rgb(255, 255, 255);
+	    padding-bottom: 0px;
+		    border-bottom: 1px solid #f7f7f7;
+}
+.headerSite__minicartBox {
+    right: 50px;
+    top: 38px;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox {
+ 
+    z-index: 99;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.99);
+    left: -5px;
+    top: 45px;
+ }
+ .pyccaMenuEscritorio--sticky .pyccaMenuEscritorio__logo {
+        z-index: 95;
+        top: -18px;
+    left: 35px;
+    }
+.pyccaMenuEscritorio--sticky {
+    background-color: #ffffff;
+	padding: 0px;
+    border-bottom: solid 1px #014e962e;}
+.pyccaMenuEscritorio__recargas.recarga__searchSticky--sticky {
+    top: -12px;
+}
+
+.pyccaMenuEscritorio__searchSticky--sticky .MiCuentaFix {
+    position: absolute;
+    top: 5px;
+    right: 155px;
+}
+.pyccaMenuEscritorio__searchSticky--sticky .headerSite__minicartBox {
+    top: 13px;
+}
+	
+.pyccaMenuEscritorio__searchSticky fieldset input[type="text"]{
+font-family: 'Lato', sans-serif;
+    color: #6d6d6d;
+    font-size: 16px;
+    border: 1px solid #eaeaea;
+    background: #fdfdfd;
+    border-radius: 3px;
+    padding: 10px 15px;
+	}
+	.headerSite__minicartBox__cartSummary__tittle {
+    display: none !important;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox {
+   
+    border: 1px solid rgb(228, 228, 228);
+    padding: 20px 0px;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox__col:first-child {
+    padding-left: 20px;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox__col {
+    padding: 0px 20px;
+ }
+.pyccaMenuEscritorio__menuList__item span:before {
+    content: '';
+    border-left: none;
+    border-right: none;
+    border: 1px solid #0ca3a9;
+    display: none;
+    height: 0;
+    position: absolute;
+    left: -20%;
+    top: 25px;
+    width: 140%;
+    z-index: 101;
+}
+.Vitrina.Agotado {
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: #e7e7e7;
+    padding: 15px;
+}
+
+a#btnLogOut {
+    padding-left: 10px;
+}
+
+a#btnLogOut::before {
+    content: "\e910";
+    color: #ffffff;
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 2px 3px 0px 3px;
+    margin-right: 5px;
+}
+
+a#btnLogOut span {
+    margin-top: 9px;
+    position: relative;
+    top: 2px;
+}
+
+.OfertasMen { 
+    padding: 5px;
+  /*  border: 1px solid #c7433e;
+    background: #FFF;
+    margin-left: 10px;
+    border-radius: 2px;
+  /*  box-shadow: 0px 0px 1px #c7433e;*/
+}
+/*
+.OfertasMen:hover {
+   background: #c7433e;
+}*/
+.pyccaMenuEscritorio__menuList__item.OfertasMen span a {
+    color: #c7433e;
+    padding: 10px 10px;
+} 
+.pyccaMenuEscritorio__menuList__item.OfertasMen span a:hover {
+ /* color: #FFF;*/
+   color: #c7433e;
+}
+
+.OfertasMen span:before{
+    display: none !important;
+}
+
+.pyccaMenuEscritorio__menuList {
+    text-align: left;
+    position: relative;
+    border-top: 1px solid #cbcbcb;
+    padding-top: 0px;
+}
+li.pyccaMenuEscritorio__menuList__item.TiendasEspec {
+    padding-top: 0px;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.pyccaMenuEscritorio__recargas__link img {
+    width: 100%;
+    height: auto;
+}
+li.pyccaMenuEscritorio__menuList__item.TiendasEspec span {
+    width: 80%;
+    padding-left: 45px;
+    position: relative;
+    top: 8px;
+}
+
+li.pyccaMenuEscritorio__menuList__item.TiendasEspec:before {
+    content: "";
+    background: url(https://www.pycca.com/arquivos/ico_tienda.png);
+    width: 40px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 11px;
+}
+
+.pyccaMenuEscritorio__menuList__item.TiendasEspec span:before {
+    top: 42px;
+    width: 100%;
+    left: 0;
+}
+
+li.pyccaMenuEscritorio__menuList__item.TiendasEspec {
+    padding-top: 0px;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.TiendasEspec .pyccaMenuEscritorio__menuList__item__subMenuBox {
+    top: 55px;
+}
+
+.TiendasEspec .pyccaMenuEscritorio__menuList__item__subMenuBox__col {
+    text-align: center;
+}
+
+a.iconoMascotas:before {
+    content: "";
+    background: url(https://www.pycca.com/arquivos/lg_pet.png);
+    display: block;
+    width: 34px;
+    height: 36px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 38px;
+    top: 20px;
+}
+
+a.iconoInfantil:before {
+    content: "";
+    background: url(https://www.pycca.com/arquivos/lg_bb.png);
+    display: block;
+    width: 34px;
+    height: 36px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 20px;
+    top: 20px;
+}
+
+
+
+ul.productClusterSearchableIds.even , ul.productClusterSearchableIds {
+    display: none;
+}
+.pyccaCategory__filtersMobile__close:before {
+    content: "X";
+    color: #fff;
+    display: block;
+    font-family: "tahoma";
+    margin-bottom: -5px;
+    font-size: 23px;
+    margin-left: 8px;
+}
+.pyccaCategory__filtersMobile__list li span {
+    border-bottom: solid 1px #0867be;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    position: relative;
+}
+.pyccaCategory__filtersMobile__list li span:after {
+    background-color: #01488a;
+    border-radius: 50%;
+    content: "\e910";
+    font-family: "icomoon";
+    font-size: 11px;
+    padding: 6px 7px 3px 7px;
+    position: absolute;
+    right: 15px;
+}
+
+.pyccaCategory__filtersMobile {
+    background-color: #014e96;
+}
+.pyccaCategory__filtersMobile__close {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    left: 0;
+    text-transform: uppercase;
+    width: 29px;
+    margin: 4px 15px;
+}
+ul.pyccaCategory__filtersMobile__list {
+    margin-top: 40px;
+}
+
+.pyccaCategory__filtersMobile__title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.15);
+    color: rgba(255,255,255,.6);
+    padding: 8px 15px;
+    right: 0px;
+}
+.pyccaCategory__filtersMobile__list li ul li {
+    display: block;
+    padding-left: 15px;
+}
+.pyccaCategory__filtersMobile__list li ul li a {
+    color: #d3e8f4;
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.pyccaDepartement__mainDepartment__viewCategories {
+
+    display: none;}
+
+    nav.pyccaMenuMobile.mm-wrapper {
+      
+        display: none;
+    }
+
+.Pagrecarga{
+    height: 700px;
+}
+
+.bannerPromo.Lateral {
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 0px 0px 6px 6px;
+    /*/box-shadow: 0px 11px 8px -8px #525252;*/
+}
+
+.headerSite__helpLinks__rightLinks.topbar img {
+    width: 15px;
+    padding: 0px 1px 3px;
+}
+.headerSite__helpLinks__rightLinks.topbar {
+    font-size: 11px;
+    padding: 4px;
+}
+.headerSite__helpLinks__rightLinks.topbar a {
+    font-size: 11px;
+    margin: 0px 16px 0px 10px;
+}
+.headerSite__helpLinks__rightLinks.topbar a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #092654;
+}
+.pyccaHome .pyccaHomeMobile__mainBanner {
+    margin-bottom: 20px;
+    margin-top: 55px;
+}
+/*heder mobile*/ 
+@media (max-width: 450px){
+    .Pagrecarga{
+        height: 820px;
+    }
+.headerSite {
+   
+    border-bottom: 1px solid #014e9666;
+    padding-bottom: 25px;
+}
+.headerSite__helpLinks__myShoping {
+    display: none;
+}
+.headerSite__mainLogo img {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: auto;
+}
+.headerSite__minicartBox {
+    right: 0px;
+}
+.headerSite__mobileSearch input[type="text"] {
+    border: none;
+    border: solid 1px #eaeaea;
+    height: 27px;
+    padding: 2px;color: #6d6d6d;
+    position: absolute;
+    width: 100%;
+    background: #fdfdfd;
+    margin-top: 11px;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.headerSite__mobileSearch .btn-buscar {
+ top: 13px;
+ }
+
+.bannerPromo {
+    margin-top: 30px;
+}
+}
+/* carrito de compras */
+ul.headerSite__minicartBox__cartSummary__box__list li a {
+    float: left;
+	padding-right: 10px;
+}
+.headerSite__minicartBox__cartSummary__box {
+    
+    border: 1px solid #f5f5f5;
+    box-shadow: 2px 3px 9px -3px #000;
+}
+ul.headerSite__minicartBox__cartSummary__box__list li h3 {
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #656565;
+}
+ul.headerSite__minicartBox__cartSummary__box__list li p {
+    text-align: left;
+    font-size: 11px;
+}
+.pyccaMenuEscritorio__menuList {
+    text-align: left;
+    position: relative;
+    border-top: 1px solid #cbcbcb;
+    padding-top: 0px;
+}
+
+
+.BotonesTop {
+    float: right;
+    position: relative;
+    top: -58px;
+    
+    height: 0px;
+}
+
+
+
+
+
+.headerSite__minicartBox__cartSummary__box__tittle {
+    background-color: #f7f7f7;
+    background-image: none;
+    font-style: normal;
+    color: #4f4f4f;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 0;
+    width: 100%;
+}
+.headerSite__minicartBox__cartSummary__box__list li button {
+    background-color: #bdbcbc;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 1px 6px;
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.headerSite__minicartBox__cartSummary__box__list li {
+    border-bottom: solid 1px #f7f7f7;
+    display: block;
+    padding: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+.headerSite__minicartBox__cartSummary__box__list {
+    
+    margin-bottom: 0px;
+}
+.headerSite__minicartBox__cartSummary__box__total h3 {
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    font-weight: 600;
+}
+.headerSite__minicartBox__cartSummary__box__total p {
+    text-align: right;
+  
+    margin-bottom: 0px;
+}
+.headerSite__minicartBox__cartSummary__box__link {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.headerSite__minicartBox__cartSummary__box__link:hover {
+    background-color: #8dc365;
+    color: #fff;
+    text-decoration: none;
+}
+/* Menu */
+
+.pyccaMenuEscritorio__menuList__item__subMenuBox__list__item {
+    margin-bottom: 0px;
+    padding-left: 13px;
+    padding-bottom: 5px;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox__title {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;  
+	color: #019fa5;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox__list__item a:hover:before{
+    content: "► ";
+    position: absolute;
+    font-size: 10px;
+    top: 1px;
+    left: -12px;
+    color: #019fa5;
+}
+
+.pyccaMenuEscritorio__menuList__item__subMenuBox__title a {
+    color: #019fa5;
+}
+.pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover {
+    text-decoration: underline;
+    color: #019fa5;
+    text-decoration: none;
+    
+}
+li.pyccaMenuEscritorio__menuList__item__subMenuBox__list__item a {
+    color: #808080;
+    display: block;
+    font-size: 13px;
+}
+li.pyccaMenuEscritorio__menuList__item__subMenuBox__list__item a:hover {
+    color: #4f4f4f;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+}
+.pyccaMenuEscritorio__searchSticky--sticky {
+
+    margin-bottom: 30px;
+}
+/*banner*/
+ul.Botones li.BotonesT1 {
+    margin-left: 15px;
+}
+.pyccaHomeDestktop__mainBanner {
+    margin-bottom: 5px;
+} 
+.responsiveContainer {
+    max-width: 1350px;
+}
+.responsiveContainer.sinborder {
+    padding: 0px;
+}
+.pyccaHomeDestktop .bx-controls-direction a:before {
+color: #fffefe; }
+
+.pyccaHomeDestktop .bx-controls-direction a {
+    background-color: #9e9d9d54;
+    border-radius: 50%;
+    z-index: 9;
+    padding: 6px 11px;
+    margin: 0px 10px;
+	    width: 44px;
+}
+
+.pyccaHomeDestktop .bx-controls-direction a:hover {
+    background-color: #9e9d9d96;
+    border-radius: 50%;
+    z-index: 9;
+    padding: 6px 11px;
+    margin: 0px 10px;
+}
+/*popup session*/
+#vtexIdContainer {
+    background: #000000b0;
+}
+.vtexIdUI .vtexIdUI-page .modal-header h4:before {
+    content: "";
+    background: url(https://www.pycca.com/arquivos/pyccaLogo.png) no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 66px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+h4.vtexIdUI-heading {
+    text-align: center;
+    
+    height: 80px;
+}
+.vtexIdUI-heading span {
+    font-size: 0px;
+    font-weight: 400;
+}
+.vtexIdUI-heading::after {
+    content: "(Opción recomendable 'Recibir la clave de acceso rápido por mail' )";
+    width: 100%;
+    font-size: 12px;
+    float: right;
+    font-weight: 600;
+    color: #f7f7f7;
+}
+.PasosLogin {
+    width: 100%;
+    padding: 10px 20px 0px 20px;
+}
+.PasosLogin h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.PasosLogin li {
+    font-size: 13px;
+}
+.PasosLogin ul {
+    margin-bottom: 0px;
+}
+button#loginWithUserAndPasswordBtn {
+    display: none;
+}
+.vtexIdUI .modal-body {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.salirlogin {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -10px;
+    z-index: 99;
+}
+.salirlogin a {
+    color: #000 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+.salirlogin a:hover {
+    text-decoration: none;
+    
+}
+/* banner fijos secundarios */
+
+.pyccaHomeDestktop__anniversaryOffers {
+   padding: 0px 14px;
+}
+
+/* Titulares*/
+.featuredProducts__title {
+    color: #4f4f4f;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-left: 3%;
+}
+h3.featuredProducts__title::before {
+    content: attr(data-product);
+    position: relative;
+    color: #a5a5a5;
+    width: 33px;
+    height: 19px;
+    float: left;
+    top: 4px;
+    background: url(/arquivos/flechasR.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/*.OfertaMuebles .pyccaHomeBusqueda__mainBanner {
+    width: 100%;
+    height: 100px;
+    background: #d3ccc9;
+    margin-bottom: 22px;
+    font-size: 49px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-top: 24px;
+}*/
+
+.OfertaMuebles .pyccaHomeBusqueda__mainBanner b {
+    color: #a41d32;
+    font-size: 63px;
+}
+
+
+.resultado-busca .pyccaCategory__vitrine .sub , .Ofertas .pyccaCategory__vitrine .sub , .OfertaMuebles .pyccaCategory__vitrine .sub, .tresxdos .pyccaCategory__vitrine .sub {
+    display: block;
+    position: relative;
+    height: 0px;
+    width: 50%;
+    z-index: 9;
+    top: 28px;
+}
+.resultado-busca .pyccaCategory__vitrine .sub .filterBy , .resultado-busca .pyccaCategory__vitrine .sub .compare , .Ofertas .pyccaCategory__vitrine .sub .filterBy , .Ofertas .pyccaCategory__vitrine .sub .compare ,
+.OfertaMuebles .pyccaCategory__vitrine .sub .filterBy , .OfertaMuebles .pyccaCategory__vitrine .sub .compare , .tresxdos .pyccaCategory__vitrine .sub .filterBy , .tresxdos .pyccaCategory__vitrine .sub .compare{
+    display: none;
+}
+
+.pyccaNewsletter__image {
+   
+    position: relative;
+    z-index: 10;
+}
+
+.pyccaCategory__vitrine .sub:last-child {
+    display: none;
+}
+
+/* carrusell*/
+.featuredProducts__list .slick-arrow {
+    background-color: #019fa578;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    top: 22%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    padding: 6px 4px;
+    text-indent: -999px;
+	width: 30px;
+}
+.featuredProducts__list .slick-arrow:hover {
+background-color: #019fa59c;}
+.featuredProducts__list .slick-arrow:before {
+color: #FFF;}
+.pyccaNewCarrusell.n30colunas {
+    padding: 0px 15px;
+}
+.slick-track li {
+    margin: 0px 10px;
+}
+
+.productVitrine {
+    border: 1px solid #f7f7f7;
+    padding: 15px;
+    border-radius: 3px;
+}
+.featuredProducts__list__item__image {
+border: none;
+}
+
+.featuredProducts__list__item__name__link , .pyccaCategory__vitrine__box__name__link{
+    color: #4f4f4f;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.featuredProducts__list__item__name , .pyccaCategory__vitrine__box__name {
+    color: #4f4f4f;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    height: 30px !important;
+}
+.featuredProducts__list__item__name__link:hover , .pyccaCategory__vitrine__box__name__link:hover {
+    text-decoration: none;
+    color: #000;
+}
+.featuredProducts__list__item__price__best, .pyccaCategory__vitrine__box__price__best{
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.featuredProducts__list__item__price__old, .pyccaCategory__vitrine__box__price__old {
+    font-size: 12px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+    background-color: #019fa5a3;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 69px;
+    right: 8px;
+    height: 35px;
+    width: 35px;
+}
+
+
+.pyccaCategory__vitrine__box__actionButtons button.pyccaCategory__vitrine__box__actionButtons__viewProduct{
+	 bottom: 80px;
+}
+.pyccaCategory__vitrine__box__actionButtons__viewProduct:after {
+    content: "\e916";
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 18px;
+    float: left;
+    text-indent: 0;
+    top: 4px;
+    left: 9px;
+    position: absolute;
+}
+.pyccaCategory__vitrine__box__actionButtons__viewProduct:hover {
+    background-color: #014e96d9;
+}
+button.featuredProducts__list__item__actionButtons__addToCar {
+    width: 100%;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #014e96;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 2px 2px 0px 0px #019fa5;
+}
+button.featuredProducts__list__item__actionButtons__addToCar:hover {
+    
+    background: #019fa5;
+    box-shadow: 2px 2px 0px 0px #014e96;
+}
+.featuredProducts ul.slick-dots {
+    margin: auto;
+    position: relative;
+    left: 46%;
+}
+.featuredProducts__list .slick-dots {
+    text-align: center;
+	
+    padding-top: 15px;
+}
+.featuredProducts__list .slick-dots li {
+    background-color: #eaeaea;
+border-radius: 50%;
+}
+.featuredProducts__list .slick-dots li.slick-active {
+    background-color: #019fa5;
+    border-radius: 50%;
+}
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .btnDelete {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #0f69bb;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+    -webkit-box-justify-content: center;
+    -moz-box-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-box-align-items: center;
+    -moz-box-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center; }
+/* line 173, _addWishList.scss */
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .featuredProducts__list__item__price {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+    -webkit-box-justify-content: center;
+    -moz-box-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-box-align-items: center;
+    -moz-box-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center; }
+/* line 177, _addWishList.scss */
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .featuredProducts__list__item__price p {
+    width: 50%; }
+/* line 179, _addWishList.scss */
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .featuredProducts__list__item__price p.featuredProducts__list__item__price__best {
+    color: #f55058;
+    text-align: left;
+    padding-left: 2%;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2; }
+/* line 185, _addWishList.scss */
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .featuredProducts__list__item__price p.featuredProducts__list__item__price__old {
+    text-align: right;
+    padding-right: 2%;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1; }
+/* line 193, _addWishList.scss */
+.pyccaListaDeseos .featuredProducts3 .featuredProducts__list .featuredProducts__list__item .featuredProducts__list__item__actionButtons a {
+    display: block;
+    width: 100%;
+    padding: 8px 0; }
+	
+	
+.featuredProducts3 {
+    padding: 15px 0;
+    width: 100%; }
+
+.featuredProducts__list3 .slick-dots {
+    text-align: center;
+	
+    padding-top: 15px;
+}
+.featuredProducts__list3 .slick-dots li {
+    background-color: #eaeaea;
+border-radius: 50%;
+}
+.featuredProducts__list3 .slick-dots li.slick-active {
+    background-color: #019fa5;
+    border-radius: 50%;
+}
+
+.featuredProducts3 {
+    padding: 15px 0;
+    width: 100%; }
+.featuredProducts3 h2{
+	display:none;
+}
+.featuredProducts3 .n30colunas {
+    padding: 0px 15px;
+}
+/* line 12, _vitrinas.scss */
+.featuredProducts__list2 {
+    overflow: hidden;
+    position: relative; }
+
+.featuredProducts__list2 .slick-arrow {
+        background-color: #019fa578;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    top: 22%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    padding: 6px 4px;
+    text-indent: -999px; }
+/* line 147, _vitrinas.scss */
+.featuredProducts__list2 .slick-arrow:before {
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 22px;
+    opacity: 1;
+    text-indent: 0;
+    float: left; }
+/* line 156, _vitrinas.scss */
+.featuredProducts__list2 .slick-arrow.slick-prev {
+    left: 0; }
+/* line 159, _vitrinas.scss */
+.featuredProducts__list2 .slick-arrow.slick-prev:before {
+    content: "\e913"; }
+/* line 164, _vitrinas.scss */
+.featuredProducts__list2 .slick-arrow.slick-next {
+    right: 0; }
+/* line 167, _vitrinas.scss */
+.featuredProducts__list2 .slick-arrow.slick-next:before {
+    content: "\e912"; }
+/* line 173, _vitrinas.scss */
+.featuredProducts__list2 .slick-dots {
+    text-align: center;
+    padding-top: 20px; }
+/* line 177, _vitrinas.scss */
+.featuredProducts__list2 .slick-dots li {
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    vertical-align: middle;
+    width: 15px; 
+	background-color: #019fa5;
+    border-radius: 50%;}
+/* line 185, _vitrinas.scss */
+.featuredProducts__list2 .slick-dots li button {
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 100%;
+    height: 100%; }
+/* line 194, _vitrinas.scss */
+.featuredProducts__list2 .slick-dots li.slick-active {
+   background-color: #eaeaea;
+    border-radius: 50%; }
+
+@media screen and (min-width: 1200px) {
+    
+    /* line 284, _vitrinas.scss */
+    .featuredProducts__list2 .slick-dots {
+        text-align: center; }
+    /* line 287, _vitrinas.scss */
+    .featuredProducts__list2 .slick-dots li {
+        height: 15px;
+        width: 15px; } }
+		
+.featuredProducts2 {
+    padding: 15px 0;
+    width: 100%; }
+
+.featuredProducts__list3 .slick-dots {
+    text-align: center;
+	
+    padding-top: 15px;
+}
+.featuredProducts__list3 .slick-dots li {
+    background-color: #eaeaea;
+border-radius: 50%;
+}
+.featuredProducts__list3 .slick-dots li.slick-active {
+    background-color: #019fa5;
+    border-radius: 50%;
+}
+
+.featuredProducts2 {
+    padding: 15px 0;
+    width: 100%; }
+.featuredProducts2 h2{
+	display:none;
+}
+.featuredProducts2 .n30colunas {
+    padding: 0px 15px;
+}
+/* line 12, _vitrinas.scss */
+.featuredProducts__list3 {
+    overflow: hidden;
+    position: relative; }
+
+.featuredProducts__list3 .slick-arrow {
+        background-color: #019fa578;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    top: 22%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    padding: 6px 4px;
+    text-indent: -999px; }
+/* line 147, _vitrinas.scss */
+.featuredProducts__list3 .slick-arrow:before {
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 22px;
+    opacity: 1;
+    text-indent: 0;
+    float: left; }
+/* line 156, _vitrinas.scss */
+.featuredProducts__list3 .slick-arrow.slick-prev {
+    left: 0; }
+/* line 159, _vitrinas.scss */
+.featuredProducts__list3 .slick-arrow.slick-prev:before {
+    content: "\e913"; }
+/* line 164, _vitrinas.scss */
+.featuredProducts__list3 .slick-arrow.slick-next {
+    right: 0; }
+/* line 167, _vitrinas.scss */
+.featuredProducts__list3 .slick-arrow.slick-next:before {
+    content: "\e912"; }
+/* line 173, _vitrinas.scss */
+.featuredProducts__list3 .slick-dots {
+    text-align: center;
+    padding-top: 20px; }
+/* line 177, _vitrinas.scss */
+.featuredProducts__list3 .slick-dots li {
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    vertical-align: middle;
+    width: 15px; 
+	background-color: #019fa5;
+    border-radius: 50%;}
+/* line 185, _vitrinas.scss */
+.featuredProducts__list3 .slick-dots li button {
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 100%;
+    height: 100%; }
+/* line 194, _vitrinas.scss */
+.featuredProducts__list3 .slick-dots li.slick-active {
+   background-color: #eaeaea;
+    border-radius: 50%; }
+
+@media screen and (min-width: 1200px) {
+    
+    /* line 284, _vitrinas.scss */
+    .featuredProducts__list3 .slick-dots {
+        text-align: center; }
+    /* line 287, _vitrinas.scss */
+    .featuredProducts__list3 .slick-dots li {
+        height: 15px;
+        width: 15px; } }
+
+/* VITRINA 4 */
+
+
+
+.featuredProducts4 .featuredProducts__list__item__image {
+    border: none;
+    margin-bottom: 0px;
+    background: #fff0;
+    padding: 0px;
+}
+
+.featuredProducts4 .featuredProducts__list__item__image img {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+.featuredProducts4 .productVitrine {
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    PADDING: 0px 0px;
+    box-shadow: 0px 20px 20px -20px #a7a7a7;
+}
+
+.featuredProducts4 {
+    padding: 15px 0;
+    width: 100%; }
+
+.featuredProducts__list4 .slick-dots {
+    text-align: center;
+	
+    padding-top: 15px;
+}
+.featuredProducts__list4 .slick-dots li {
+    background-color: #eaeaea;
+border-radius: 50%;
+}
+.featuredProducts__list4 .slick-dots li.slick-active {
+    background-color: #019fa5;
+    border-radius: 50%;
+}
+
+.featuredProducts4 {
+    padding: 15px 0;
+    width: 100%; }
+.featuredProducts4 h2{
+	display:none;
+}
+.featuredProducts4 .n30colunas {
+    padding: 0px 15px;
+}
+/* line 12, _vitrinas.scss */
+.featuredProducts__list4 {
+    overflow: hidden;
+    position: relative; }
+
+.featuredProducts__list4 .slick-arrow {
+    
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    top: 22%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    padding: 6px 4px;
+    text-indent: -999px; }
+/* line 147, _vitrinas.scss */
+.featuredProducts__list4 .slick-arrow:before {
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 22px;
+    opacity: 1;
+    text-indent: 0;
+    float: left; }
+/* line 156, _vitrinas.scss */
+.featuredProducts__list4 .slick-arrow.slick-prev {
+    left: 0; }
+/* line 159, _vitrinas.scss */
+.featuredProducts__list4 .slick-arrow.slick-prev:before {
+    content: "\e913"; }
+/* line 164, _vitrinas.scss */
+.featuredProducts__list4 .slick-arrow.slick-next {
+    right: 0; }
+/* line 167, _vitrinas.scss */
+.featuredProducts__list4 .slick-arrow.slick-next:before {
+    content: "\e912"; }
+/* line 173, _vitrinas.scss */
+.featuredProducts__list4 .slick-dots {
+    text-align: center;
+    padding-top: 20px; }
+/* line 177, _vitrinas.scss */
+.featuredProducts__list4 .slick-dots li {
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    vertical-align: middle;
+    width: 15px; 
+	background-color: #019fa5;
+    border-radius: 50%;}
+/* line 185, _vitrinas.scss */
+.featuredProducts__list4 .slick-dots li button {
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 100%;
+    height: 100%; }
+/* line 194, _vitrinas.scss */
+.featuredProducts__list4 .slick-dots li.slick-active {
+   background-color: #eaeaea;
+    border-radius: 50%; }
+
+/*navidad*/
+/*
+.featuredProducts4 button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+    background-color: #dd2524;
+}
+.featuredProducts4 .productVitrine {
+    border-radius: 50%;
+    border: 1px solid #dc2422;
+    PADDING: 0px 0px;
+    box-shadow: 0px 20px 20px -20px #dd2524;
+}
+.featuredProducts__list4 .slick-arrow {
+    background-color: #dd25248f;}
+
+.featuredProducts__list4 .slick-dots li {
+        background-color: #dd2524;} */
+
+@media screen and (min-width: 1200px) {
+    
+    /* line 284, _vitrinas.scss */
+    .featuredProducts__list4 .slick-dots {
+        text-align: center; }
+    /* line 287, _vitrinas.scss */
+    .featuredProducts__list4 .slick-dots li {
+        height: 15px;
+        width: 15px; } }
+		
+.featuredProducts__list4 .featuredProducts__list__item__price {
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 0px;
+}
+
+
+
+
+
+
+/*VITRINA 5*/
+
+
+		
+.featuredProducts5 {
+    padding: 15px 0;
+    width: 100%; }
+
+.featuredProducts__list5 .slick-dots {
+    text-align: center;
+	
+    padding-top: 15px;
+}
+.featuredProducts__list5 .slick-dots li {
+    background-color: #eaeaea;
+border-radius: 50%;
+}
+.featuredProducts__list5 .slick-dots li.slick-active {
+    background-color: #019fa5;
+    border-radius: 50%;
+}
+
+.featuredProducts5 {
+    padding: 15px 0;
+    width: 100%; }
+.featuredProducts5 h2{
+	display:none;
+}
+.featuredProducts5 .n30colunas {
+    padding: 0px 15px;
+}
+/* line 12, _vitrinas.scss */
+.featuredProducts__list5 {
+    overflow: hidden;
+    position: relative; }
+
+.featuredProducts__list5 .slick-arrow {
+        background-color: #ff7d3d;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    top: 22%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    padding: 6px 4px;
+    text-indent: -999px; }
+/* line 147, _vitrinas.scss */
+.featuredProducts__list5 .slick-arrow:before {
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 22px;
+    opacity: 1;
+    text-indent: 0;
+    float: left; }
+/* line 156, _vitrinas.scss */
+.featuredProducts__list5 .slick-arrow.slick-prev {
+    left: 0; }
+/* line 159, _vitrinas.scss */
+.featuredProducts__list5 .slick-arrow.slick-prev:before {
+    content: "\e913"; }
+/* line 164, _vitrinas.scss */
+.featuredProducts__list5 .slick-arrow.slick-next {
+    right: 0; }
+/* line 167, _vitrinas.scss */
+.featuredProducts__list5 .slick-arrow.slick-next:before {
+    content: "\e912"; }
+/* line 173, _vitrinas.scss */
+.featuredProducts__list5 .slick-dots {
+    text-align: center;
+    padding-top: 20px; }
+/* line 177, _vitrinas.scss */
+.featuredProducts__list5 .slick-dots li {
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    vertical-align: middle;
+    width: 15px; 
+	background-color: #ff7d3d;
+    border-radius: 50%;}
+/* line 185, _vitrinas.scss */
+.featuredProducts__list5 .slick-dots li button {
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 100%;
+    height: 100%; }
+/* line 194, _vitrinas.scss */
+.featuredProducts__list5 .slick-dots li.slick-active {
+   background-color: #eaeaea;
+    border-radius: 50%; }
+
+/**/
+.featuredProducts5 .productVitrine {
+    padding: 0px;
+    border: 0px;
+}
+.featuredProducts5 h4.featuredProducts__list__item__name {
+    position: relative;
+    margin-top: -20px;
+    padding: 10px 10px 0px;
+    height: 50px !important;
+    margin-bottom: 0px;
+}
+
+.featuredProducts5 a.featuredProducts__list__item__name__link.productName {
+    color: #334b50;
+    font-size: 13px;
+}
+
+.featuredProducts5 p.featuredProducts__list__item__price__best {
+    color: #FFF;
+    font-size: 20px;
+    display: none;
+}
+
+.featuredProducts5 .VitrinaCuotas {
+   
+    color: #334b50;
+    padding-top: 5px;
+}
+.featuredProducts5 .CuotaFinal {
+    border-left: 1px solid #ffffff4a;
+}
+
+
+
+.featuredProducts5 .buy-button-normal a, button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #ff7d3d;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px 0px #d2591e;
+}
+
+.featuredProducts5 button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+    background-color: #ff7d3d12;
+   
+}
+
+.featuredProducts5 .pyccaCategory__vitrine__box__actionButtons__viewProduct:after {
+   
+    color: #ff7d3d;
+  
+}
+
+.featuredProducts5 h4.PrecioFMostrar {
+    color: #334b50;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.featuredProducts5 .buy-button-normal a:hover, .featuredProducts5 button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #f97a3a;
+    box-shadow: 1px 1px 1px 0px #d2591e;
+    text-decoration: none;
+    color: #FFF;
+}
+/*
+.Ofertas .pyccaHomeBusqueda__mainBanner {
+
+    background: #c00;
+}*/
+.pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+  
+    margin-bottom: 25px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    /* line 284, _vitrinas.scss */
+    .featuredProducts__list5 .slick-dots {
+        text-align: center; }
+    /* line 287, _vitrinas.scss */
+    .featuredProducts__list5 .slick-dots li {
+        height: 15px;
+        width: 15px; } }
+		
+        .featuredProducts__list5 .featuredProducts__list__item__price {
+            margin-bottom: 0px;
+            width: 100%;
+            min-height: 0px;
+            background: #ff6a20de;
+            position: relative;
+        }
+
+
+/****************/
+.featuredProducts__list4 button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+  
+    bottom: 3px;
+   
+}	
+
+.PyccaCarrusellPequenio p.featuredProducts__list__item__price__best.bestProductPrice {
+    font-size: 14px;
+    padding-right: 34px;
+}	
+/*pop up*/
+
+.pyccaCategory__vitrine__box__price {
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: initial;
+}
+.featuredProducts__list__item__price {
+    margin-bottom: 8px;
+    width: 100%;
+    min-height: initial;
+}
+.PlasticosMobile {
+    display: none;
+}
+.PlasticosDesktop{
+    display: block;
+}
+.pyccaHomeMobile_plastico {
+    margin: 15px 45px;
+}
+.pyccaHomeMobile_plastico .featuredProducts__title {
+    padding-left: 25px;
+}
+
+.VitrinaCuotas{
+    padding-left: 20%;
+    width: 100%;
+    padding-bottom: 10px;
+    display: table;
+}
+.maxnumber {
+    width: 26%;
+    float: left;
+    line-height: 1;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+    padding-top: 3px;
+}
+.maxnumber b {
+    font-size: 20px;
+}
+.CuotaFinal {
+    width: 62%;
+    float: left;
+    font-size: 21px;
+    font-weight: 600;
+    border-left: 1px solid #797979;
+    padding: 2px 5px;
+}
+.PrecioFinal{
+    width: 80%;
+    padding-top: 3px;
+    display: table;
+    text-align: center;
+}
+.PrecioFinal h4{
+    font-size: 10px;
+    color: #636363;
+}
+.maxnumber b:before { 
+    content: attr(data-product);
+     position: relative; 
+     padding: 1px;
+}
+.nuevoPrecio:before { 
+    content: attr(data-content);
+     position: relative; 
+     padding: 1px;
+}
+.nuevoPrecio {
+    padding-left: 18%;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    color: #cc232a;
+    font-weight: 900;
+    font-size: 19px;
+}
+/*
+p.pyccaProductAdded__message__list__item__info {
+    display: none;
+}
+p.pyccaProductAdded__message__cartSummary__totalValue {
+    display: none;
+}
+.pyccaProductDetail__productBox p.pyccaProductDetail__detailPrice__bestPrice {
+    display: none;
+}*/
+
+img.imglanIbarra {
+    width: 100%;
+    max-width: 1000px;
+}
+.Ibarra .pyccaEstatico {
+    text-align: center;
+}
+.Ibarra .carrusellProductos {
+    display: none;
+}
+a.btnIbarra {
+    display: table;
+    background: #004e96;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 21px;
+    line-height: 1;
+    border-radius: 5px;
+    box-shadow: 0px 12px 18px -10px #000;
+    position: relative;
+}
+a.btnIbarra b {
+    font-size: 35px;
+}
+a.btnIbarra:hover {
+    text-decoration: none;
+    background: #073967;
+}
+.Ajuste{
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 100%;
+    padding-bottom: 10px;
+    display: table;
+    background: #fdfdfd;
+    margin-bottom: 8px;
+    border-radius: 0px;
+    border: 1px solid #cc232a4d;
+}
+
+.Ajuste .maxnumber {
+    width: 26%;
+    float: left;
+    line-height: 1;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+    padding-top: 3px;
+    background: #4c4c4c;
+    color: #FFF;
+}
+
+.Ajuste .CuotaFinal {
+    width: 60%;
+    float: left;
+    font-size: 21px;
+    font-weight: 600;
+    border: 1px solid #4c4c4c;
+    padding: 0px 5px 2px 10px;
+}
+.TitSocio{
+    background: #cc232a;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 4px;
+}/*
+button.featuredProducts__list__item__actionButtons__addToCar {
+    background: #cc232a;
+    box-shadow: 2px 2px 0px 0px #84080d;
+}*/
+.bannerNavidad {
+    margin: auto;
+    max-width: 1350px;
+    margin-bottom: 20px;
+}
+img.imgBann {
+    width: 100%;
+}
+.VTarjeta{
+    color: #000;
+    font-size: 14px;
+}
+.CuotaFinal:before { 
+    content: attr(data-product);
+     position: relative; 
+}
+.PrecioFMostrar:before {
+        content: attr(data-content);
+        position: relative;
+    }
+.pyccaProductPreview .pyccaPreviewBackground {
+background-color: rgba(0, 0, 0, 0.48);}
+
+.pyccaProductPreview .pyccaProductDetail {
+    background-color: #ffffff;
+    border-radius: 3px;
+box-shadow: 0px 0px 37px -6px #000;}
+.pyccaProductDetail__title {
+    color: #4f4f4f;
+    font-size: 18px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p.pyccaProductDetail__referenceBrand__reference {
+    font-size: 14px;
+    font-weight: 300;
+}
+.pyccaProductDetail__referenceBrand {
+    color: #808080;
+    padding: 15px 0;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.pyccaProductDetail__detailPrice {
+    border-top: solid 1px #f7f7f7;
+    border-bottom: solid 1px #f7f7f7;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.pyccaProductDetail__detailPrice__oldPrice {
+    display: inline-block;
+    color: #a5a5a5;
+    font-size: 13px;
+    vertical-align: middle;
+    text-decoration: line-through;
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+.pyccaProductDetail__detailPrice__bestPrice {
+    display: inline-block;
+    color: #e60100;
+    font-size: 21px;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    left: -45px;
+}
+.pyccaProductDetail__detailPrice__oldPrice:before {
+    content: " $ ";
+	width: 10px;
+	height:10px; 
+}
+.pyccaProductDetail__detailPrice__bestPrice:before {
+    content: " $ ";
+    color: #e60100;
+    text-decoration: none;
+}
+.pyccaProductDetail__selectOptions__qty__title {
+    color: #4f4f4f;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    float: left;
+    padding-top: 8px;
+}
+.pyccaProductDetail__selectOptions__qty__selector {
+    float: left;
+    padding-left: 20px;
+}
+.pyccaProductDetail__selectOptions__qty__selector__button {
+    background-color: #c3c3c3;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+}
+.pyccaProductDetail__selectOptions__qty__selector__currentQty {
+    background-color: #fff;
+    border: solid 1px #e7e7e7;
+    padding: 8px 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+.pyccaProductDetail__buyOptions__button--buyProduct {
+   border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.pyccaProductDetail__buyOptions__button--buyProduct:hover {
+   border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.pyccaProductDetail__buyOptions {
+    padding: 5px 0px;
+    text-align: center;
+}
+.pyccaProductDetail__selectOptions {
+    padding: 15px 0;
+    text-align: center;
+}
+.pyccaProductDetail__paymentMethods__title {
+    color: #4f4f4f;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.pyccaProductDetail__paymentMethods__list {
+    text-align: center;
+}
+.pyccaProductDetail__paymentMethods__list__option {
+    margin-right: 18px;
+    padding-bottom: 5px;
+}
+
+
+/* */
+
+.pyccaProductPreview .pyccaProductDetail__title {
+    color: #4f4f4f;
+    font-size: 18px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.pyccaProductPreview p.pyccaProductDetail__referenceBrand__reference {
+    font-size: 14px;
+    font-weight: 300;
+}
+.pyccaProductPreview .pyccaProductDetail__referenceBrand {
+    color: #808080;
+    padding: 15px 0;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.pyccaProductPreview .pyccaProductDetail__detailPrice {
+    border-top: solid 1px #f7f7f7;
+    border-bottom: solid 1px #f7f7f7;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.pyccaProductPreview .pyccaProductDetail__detailPrice__oldPrice {
+    display: inline-block;
+    color: #a5a5a5;
+    font-size: 13px;
+    vertical-align: middle;
+    text-decoration: line-through;
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+.pyccaProductPreview .pyccaProductDetail__detailPrice__bestPrice {
+    display: inline-block;
+    color: #e60100;
+    font-size: 21px;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    left: -45px;
+}
+.pyccaProductPreview .pyccaProductDetail__detailPrice__oldPrice:before {
+    content: " $ ";
+	width: 10px;
+	height:10px; 
+}
+.pyccaProductPreview .pyccaProductDetail__detailPrice__bestPrice:before {
+    content: " $ ";
+    color: #e60100;
+    text-decoration: none;
+}
+.pyccaProductPreview .pyccaProductDetail__selectOptions__qty__title {
+    color: #4f4f4f;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    float: left;
+    padding-top: 8px;
+}
+.pyccaProductPreview .pyccaProductDetail__selectOptions__qty__selector {
+    float: left;
+    padding-left: 20px;
+}
+.pyccaProductPreview .pyccaProductDetail__selectOptions__qty__selector__button {
+    background-color: #c3c3c3;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+}
+.pyccaProductPreview .pyccaProductDetail__selectOptions__qty__selector__currentQty {
+    background-color: #fff;
+    border: solid 1px #e7e7e7;
+    padding: 8px 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+.pyccaProductPreview .pyccaProductDetail__buyOptions__button--buyProduct {
+   border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.pyccaProductPreview .pyccaProductDetail__buyOptions__button--buyProduct:hover {
+   border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.pyccaProductPreview .pyccaProductDetail__buyOptions {
+    padding: 5px 0px;
+    text-align: center;
+}
+.pyccaProductPreview .pyccaProductDetail__selectOptions {
+    padding: 15px 0;
+    text-align: center;
+}
+.pyccaProductPreview .pyccaProductDetail__paymentMethods__title {
+    color: #4f4f4f;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.pyccaProductPreview .pyccaProductDetail__paymentMethods__list {
+    text-align: center;
+}
+.pyccaProductPreview .pyccaProductDetail__paymentMethods__list__option {
+    margin-right: 18px;
+    padding-bottom: 5px;
+}
+
+/*3er banner fijos*/
+
+.pyccaHomeDestktop__secondaryBanners {
+    padding: 15px 30px;
+}
+
+.footerSite {
+   
+    margin-top: 15px;
+}
+.footerSite__nav__list {
+    display: block;
+    margin-bottom: 0px;
+}
+.footerSite__nav {
+    padding: 15px 0;
+}
+.footerSite__nav__list__item__link {
+    border-left: solid 1px #fff;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-weight: 400;
+}
+.footerSite__nav__list__item__link:hover {
+    text-decoration: none;
+    color: #d2d2d2;
+}
+a.footerSite__footerColums__column__list__item__link_lider {
+    color: #4f4f4f;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+a.footerSite__footerColums__column__list__item__link_lider:hover {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+
+
+/*heder mobile*/ 
+@media (max-width: 450px){
+.pyccaCategory__vitrine__box__actionButtons__addToList {
+  
+    display: none;
+}
+
+.featuredProducts__title {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+h3.featuredProducts__title::before {
+    width: 28px;
+    height: 19px;
+    float: left;
+    top: 4px;
+	display:none;
+}
+
+}
+
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.preciosIva {
+    text-align: center;
+    font-size: 12px;
+	
+     color: #4f4f4f;
+}
+
+/* Page Producto*/
+
+
+
+section.featuredProducts li {
+    width: 22%;
+    float: left;
+    margin-left: 15px;
+	position: relative;
+    margin-bottom: 15px;
+} 
+.pyccaProductDetail .pyccaProductDetail__title {
+    color: #4f4f4f;
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.bread-crumb {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.pyccaProductDetail {
+    margin: 15px 30px;
+}
+h3.pyccaProductDetail__calculator__title {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 10px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.pyccaProductDetail__calculator__boxOptions {
+    padding: 15px 20px;
+    background: #f7f7f7;
+    border-radius: 3px;
+}
+.pyccaProductDetail__calculator__boxOptions__duesNumber {
+    border: solid 1px #e7e7e7;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    padding-bottom: 7px;
+}
+
+.nav-tabs li a {
+    font-size: 20px;
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px 4px 0px 0px;
+    margin-right: 2px;
+    border-bottom-color: #fff;
+	    text-decoration: none;
+}
+
+
+.container {
+     padding-right: 0px; 
+     padding-left: 0px;
+}
+.tab-content {
+    margin-top: 0px;
+    padding: 20px 40px;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+	    margin-bottom: 50px;
+}
+.pyccaProductDetail__specifications__lista__elemento {
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    margin-top: 0px;
+    background: #FFF;
+    padding: 15px 35px;
+}
+.pyccaProductDetail__specifications__lista__elemento:nth-child(2n+1) {
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    margin-top: 0px;
+    background: #f7f7f7;
+}
+.pyccaProductDetail__calculator__boxOptions__duevalue {
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: -4px;
+}
+.pyccaProductDetail__share__list__item:before {
+    font-family: "icomoon";
+    font-size: 20px;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #818181;
+}
+.pyccaProductDetail__share__list__item {
+    display: inline-block;
+    height: 25px;
+    overflow: hidden;
+    text-indent: -999px;
+    margin: 0 5px;
+    position: relative;
+    width: 20px;
+    TOP: 5px;
+}
+
+@media screen and (min-width: 1200px){
+.pyccaProductDetail__productImage {
+    width: 50%;
+}
+.container {
+    max-width: 100%;
+}
+}
+@media screen and (min-width: 768px){
+.pyccaProductDetail__productBox {
+    width: 46%;
+    float: right;
+}
+.pyccaProductDetail__calculator__boxOptions--second {
+    position: absolute;
+    top: 23px;
+    right: 50px;
+}
+.pyccaProductDetail__calculator__boxOptions__title {
+    padding-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+}
+
+
+
+.buy-button-normal a , button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-size: 13px;
+    background: #d03d45;
+}
+
+.buy-button-normal a:hover ,button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #c81923;
+	text-decoration: none;
+}
+/*
+.buy-button-normal a, button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #cc232a;
+    box-shadow: 2px 2px 0px 0px #84080d;
+}*/
+
+.pyccaCategory__vitrine__box__image {
+   
+    border: solid 0px #e7e7e7;
+   
+}
+.botoncomprar {
+    text-align: center;
+}
+
+.pyccaHomeDestktop__anniversaryOffers__list__item {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+	padding:  0px 4px !important;
+}
+
+
+.principalHome h1 {
+    color: #4f4f4f;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.principalHome p {
+    color: #4f4f4f;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.pyccaNewsletter__form__title {
+    color: #4f4f4f;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 0 18px 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.pyccaNewsletter__form__text {
+color: #4f4f4f;}
+.footerSite__footerColums__column__title {
+    display: block;
+    color: #4f4f4f;
+    font-family: 'robotobold';
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 0 3px 10px;
+}
+.footerSite__footerColums__column__title:before {
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.footerSite__footerColums__column__list__item__link:hover {
+        color: #4f4f4f;
+    text-decoration: none;
+}
+ul.footerSite__footerColums__column__list.footerSite__footerColums__column--share__list {
+    text-align: center;
+}
+@media screen and (min-width: 1200px){
+.footerSite__footerColums__column {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 20px 35px;
+}}
+
+@media screen and (min-width: 768px){
+.pyccaNewsletter__form__title {
+    font-size: 20px;
+    text-align: left;
+}
+.footerSite__footerColums__column__title {
+    border-bottom: solid 2px #939292;
+    margin-bottom: 15px;
+}
+.footerSite__footerColums__column__list__item__link {
+    padding: 5px 20px;
+}
+}
+
+/* ddepartamento */
+
+.pyccaCategory__vitrine__title, .pyccaCategory__vitrine .titulo-sessao {
+    color: #4f4f4f;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pyccaCategory__desktopAside__title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 22px;
+}
+
+.pyccaCategory__desktopAside__list li {
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+.pyccaCategory__desktopAside__list li a {
+    color: #7a7a7a;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.pyccaCategory__desktopAside__list li a:hover {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+.pyccaCategory__desktopAside__list li a:before {
+    content: "\e912";
+    font-family: "icomoon";
+    font-size: 8px;
+    padding-right: 5px;
+    position: relative;
+    top: -2px;
+}
+
+.pyccaCategory__desktopAside {
+margin-top: 10px;}
+.pyccaCategory__vitrine .pager {
+    border-top: 0px;
+   
+}
+.pyccaCategory__vitrine__filterBox {
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.pyccaCategory__vitrine__filterBox__filters > li span:after {
+    background-color: #014e96;
+    border-radius: 20px;
+    color: #fff;
+    content: "\e910";
+    font-family: "icomoon";
+    font-size: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 6px;
+}
+.pyccaCategory__vitrine__filterBox__filters > li ul a:hover {
+    background-color: #7f7f7f;
+    color: #fff;
+    text-decoration: none;
+}
+.pyccaCategory__vitrine__filterBox__filters > li span {
+    padding-right: 22px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+	
+     color: #4f4f4f;
+
+}
+
+.pyccaCategory__vitrine__filterBox__filters > li ul {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: solid 1px #f4f4f4;
+    display: none;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+    width: 200px;
+}
+.pyccaCategory__vitrine__filterBox__filters > li ul a {
+    color: #4f4f4f;
+    display: block;
+    padding: 5px 15px;
+    text-transform: capitalize;
+	font-size: 14px;
+}
+.pyccaCategory__vitrine__filterBox__orderBy .orderBy select {
+    border: 1px solid #d5d5d5;
+    padding: 3px 11px;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+.pyccaCategory__vitrine__filterBox__orderBy .orderBy label {
+    display: inline;
+    padding-right: 10px;
+}
+.pyccaCategory__vitrine__filterBox__orderBy .orderBy select option {
+    font-size: 14px;
+}
+.pyccaMenuMobile__menuList__item span {
+    border-bottom: solid 1px #0867be;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 15px 30px;
+   
+}
+.pyccaMenuMobile {
+    
+    background-color: #00539fe0;
+   
+}
+
+.pyccaHomeMobile .bx-controls-direction a {
+
+background-color: #e7e7e7ab;
+}
+.pyccaHomeMobile .bx-controls-direction a:before {
+color: #ffffff;
+}
+
+li.pyccaMenuMobile__menuList__item.pyccaMenuMobile__menuList__item--recargas {
+    border: 0px;
+    text-align: center;
+    margin-top: 25px;
+}
+li.pyccaMenuMobile__menuList__item.pyccaMenuMobile__menuList__item--recargas span {
+    border: 1px solid #ffffff94;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    background: #003362;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+li.pyccaMenuMobile__menuList__item.pyccaMenuMobile__menuList__item--recargas span:after {
+    background-color: #01488a;
+    border-radius: 0px;
+    content: "\e910";
+    font-family: "icomoon";
+    font-size: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.pyccaHomeMobile__secondarybanners li.responsiveContainer {
+    margin-top: 10px;
+}
+
+.itemD {
+    height: 0px;
+    position: relative
+}
+.itemD .flag.ofertas  {
+  /*  background: url(http://pagos.pycca.com/assets/img/ico/logo-oferta1.png) no-repeat;*/
+  
+    position: absolute;
+    background-size: contain;
+    top: 6px;
+    left: 8px;
+    text-indent: -1000em;
+    display: block;
+    height: 0px;
+    width: 0px;
+    z-index: 9;
+}
+.itemD .flag.LogoOfertas  {
+    background: url(/arquivos/logo-oferta1.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    top: -10px;
+    left: -13px;
+    text-indent: -1000em;
+    display: block;
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+   }
+.featuredProducts5 p.flag.LogoOfertas {
+    top: 0px;
+}
+button.pyccaCategory__vitrine__box__actionButtons__addToList.wishlistBtn {
+    display: none;
+}
+
+
+   .itemD  p.flag.parael , .itemD p.flag.paraella  , .itemD p.flag.decoracion  , .itemD p.flag.enviogratis ,
+    .itemD p.flag.destacados-infantil ,.itemD p.flag.regaloninas ,  .itemD p.flag.regaloninos ,
+    .itemD p.flag.infantil , .itemD p.flag.regalobodas ,.itemD p.flag.amantes-cocina, .itemD p.flag.landplaya 
+     {
+    background: url(/arquivos/envio-gratis.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    top: 140px;
+    right: -10px;
+    text-indent: -1000em;
+    display: block;
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+}
+
+
+.itemD p.flag.sanvalentin 
+ {
+background: url(/arquivos/ico-Compra-en-Pareja.png) no-repeat;
+position: absolute;
+    background-size: contain;
+    top: -12px;
+    left: -15px;
+    text-indent: -1000em;
+    display: block;
+    height: 80px;
+    width: 85px;
+    z-index: 10;
+}
+
+.Envio .flag.sanvalentin  {
+/*background: url(/arquivos/ico-Compra-en-Pareja.png) no-repeat;*/
+   
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+    text-indent: -1000em;
+    height: 43px;
+    z-index: 9;
+    width: 110px;
+    top: 13px;
+    /*width: 61px;
+    top: -10px;*/
+    position: absolute;
+  }
+  .etiqueta .flag.sanvalentin  {
+   background: url(/arquivos/ico-Compra-en-Pareja.png) no-repeat;
+   
+      position: absolute;
+      top: 10px;
+      background-size: contain;
+      left: 15px;
+      text-indent: -1000em;
+      display: block;
+      height: 85px;
+      width: 85px;
+      z-index: 6;
+  }
+  
+  
+
+
+.itemD p.flag.exclusivo-online {
+    position: absolute;
+    top:180px;
+    left: -15px;
+    width: fit-content;
+    background: #019fa5;
+    color: #ffffff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 9;
+}
+
+
+.etiqueta  p.flag.parael , .etiqueta p.flag.paraella  , .etiqueta p.flag.decoracion  ,  .etiqueta p.flag.enviogratis,
+ .etiqueta p.flag.destacados-infantil ,.etiqueta p.flag.regaloninas ,  .etiqueta p.flag.regaloninos ,
+ .etiqueta p.flag.infantil , .etiqueta p.flag.regalobodas ,.etiqueta p.flag.amantes-cocina, .etiqueta p.flag.landplaya  {
+
+    display: none;
+
+}
+.Envio p.flag.exclusivo-online {
+    display: none;
+}
+.etiqueta p.flag.exclusivo-online {
+    background: #019fa5;
+    color: #ffffff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 0px 5px 5px 0px;
+    width: fit-content;
+}
+.consultadeSaldo{
+    width: 100%;
+    height: 600px;
+}
+.Envio {
+    position: relative;
+    left: 0%;
+}
+
+.Envio  p.flag.parael , .Envio p.flag.paraella  , .Envio p.flag.decoracion  , .Envio p.flag.enviogratis ,
+.Envio p.flag.destacados-infantil ,.Envio p.flag.regaloninas ,  .Envio p.flag.regaloninos ,
+.Envio p.flag.infantil , .Envio p.flag.regalobodas , .Envio p.flag.amantes-cocina, .Envio p.flag.landplaya
+{
+    background: url(/arquivos/envio-gratis.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+    text-indent: -1000em;
+    height: 43px;
+    z-index: 9;
+    width: 110px;
+    top: 13px;
+    /*width: 61px;
+    top: -10px;*/
+    position: absolute;
+}
+
+
+
+
+.itemD .flag.ofertas-hogar-mama , .itemD .flag.combos-plasticos , .itemD .flag.ofertas-muebles , .itemD .flag.ofertas-electro {
+   /*  background: url(http://pagos.pycca.com/assets/img/ico/bp-happyhour-mama-4.png) no-repeat; */
+    position: absolute;
+    background-size: contain;
+    top: 5px;
+    right: -9px;
+    text-indent: -1000em;
+    display: block;
+    height: 60px;
+    width: 80px;
+    z-index: 6;
+}
+
+.etiqueta .flag.ofertas  {
+  background: url(/arquivos/logo-oferta1.png) no-repeat;
+ 
+    position: absolute;
+    top: 6px;
+    background-size: contain;
+    left: 25px;
+    text-indent: -1000em;
+    display: block;
+    height: 85px;
+    width: 85px;
+    z-index: 6;
+}
+
+.itemD .flag.trasnochon {
+   /* background: url(http://pagos.pycca.com/assets/img/home/cyber/logo-cdto.png) no-repeat;*/
+    position: absolute;
+    background-size: contain;
+    top: 6px;
+    left: 8px;
+    text-indent: -1000em;
+    display: block;
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+}
+.etiqueta .flag.trasnochon  {
+ /*   background: url(http://pagos.pycca.com/assets/img/home/cyber/logo-cdto.png) no-repeat;*/
+    position: absolute;
+    top: 6px;
+    background-size: contain;
+    left: 25px;
+    text-indent: -1000em;
+    display: block;
+    height: 85px;
+    width: 85px;
+    z-index: 6;
+}
+
+.itemD .flag.cybermonday {
+   /* background: url(http://pagos.pycca.com/assets/img/home/cyber/logo-cdto.png) no-repeat;*/
+    position: absolute;
+    background-size: contain;
+    top: 6px;
+    left: 8px;
+    text-indent: -1000em;
+    display: block;
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+}
+.etiqueta .flag.cybermonday  {
+ /*   background: url(http://pagos.pycca.com/assets/img/home/cyber/logo-cdto.png) no-repeat;*/
+    position: absolute;
+    top: 6px;
+    background-size: contain;
+    left: 25px;
+    text-indent: -1000em;
+    display: block;
+    height: 85px;
+    width: 85px;
+    z-index: 6;
+}
+
+
+.itemD .flag.campanatresxdos {
+  /*  background: url(http://pagos.pycca.com/assets/img/ico/LOGO-3X2.png) no-repeat;*/
+    position: absolute;
+    background-size: contain;
+    top: 160px;
+    right: 15px;
+    text-indent: -1000em;
+    display: block;
+    height: 80px;
+    width: 100px;
+    z-index: 9;
+}
+.etiqueta .flag.campanatresxdos  {
+  /* background: url(http://pagos.pycca.com/assets/img/ico/LOGO-3X2.png) no-repeat;*/
+   position: absolute;
+   top: 20%;
+   background-size: contain;
+   left: 27%;
+   text-indent: -1000em;
+   display: block;
+   height: 130px;
+   width: 175px;
+   z-index: 6;
+}
+
+.etiqueta .flag.ofertas-hogar-mama , .etiqueta .flag.combos-plasticos , .etiqueta .flag.ofertas-muebles , .etiqueta .flag.ofertas-electro  {
+    /* background: url(http://pagos.pycca.com/assets/img/ico/bp-happyhour-mama-4.png) no-repeat; */
+        position: absolute;
+    top: 6px;
+    background-size: contain;
+    left: 25px;
+    text-indent: -1000em;
+    display: block;
+    height: 85px;
+    width: 85px;
+    z-index: 6;
+}
+
+.RegalosParaMama .bread-crumb,
+.RegalosParaMama .pyccaCategory__vitrine .titulo-sessao,
+.RegalosParaMama .pyccaCategory__vitrine__filterBox ,
+.sanvalentin .bread-crumb,
+.sanvalentin .pyccaCategory__vitrine .titulo-sessao,
+.sanvalentin .pyccaCategory__vitrine__filterBox ,
+.RenovacionHogar .bread-crumb,
+.RenovacionHogar .pyccaCategory__vitrine .titulo-sessao,
+.RenovacionHogar .pyccaCategory__vitrine__filterBox ,
+.RegresoClases .bread-crumb,
+.RegresoClases .pyccaCategory__vitrine .titulo-sessao,
+.RegresoClases .pyccaCategory__vitrine__filterBox,
+.GuiaDeCompras .bread-crumb,
+.GuiaDeCompras .pyccaCategory__vitrine .titulo-sessao,
+.GuiaDeCompras .pyccaCategory__vitrine__filterBox ,
+.carrusellProductos.Busqueda {
+    display: none;
+}
+.pyccalanding .carrusellProductos.Busqueda {
+    display: block
+}
+
+img.itemBannerBusqueda {
+    width: 50%;
+    margin-bottom: 0px;
+    max-width: 1350px;
+}
+.pyccaCategory__vitrine .pager .pages li {
+    display: inline-block;
+    color: #4f4f4f;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px;
+    padding: 4px 11px;
+    margin: 2px;
+    border-radius: 50%;
+    width: 30px;
+    background: #f7f7f7;
+    height: 30px;
+}
+.pyccaCategory__vitrine .pager .pages li.previous, .pyccaCategory__vitrine .pager .pages li.next {
+    color: #f7f7f7;
+    overflow: hidden;
+    text-indent: -999px;
+    position: relative;
+    top: 12px;
+}
+.pyccaCategory__vitrine .pager .pages li.previous:hover, .pyccaCategory__vitrine .pager .pages li.next:hover {
+    color: #f7f7f7;
+    overflow: hidden;
+    text-indent: -999px;
+    position: relative;
+    top: 12px;
+}
+.pyccaCategory__vitrine .pager .pages li:hover {
+    color: #ffffff;
+    background: #014e96ad;
+}
+.pyccaCategory__vitrine .pager .pages li.pgCurrent {
+    color: #ffffff;
+    background: #019fa5;
+}
+
+.ui-autocomplete.ui-menu {
+    background-color: #fff;
+    padding: 0px 0px;
+    border: 1px solid #f7f7f7;
+    width: 320px !important;
+}
+
+li.ui-menu-item {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item a {
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    color: #7f7f7f;
+}
+.ui-autocomplete.ui-menu .ui-menu-item a:hover {
+    text-decoration:none;
+}
+
+.formQSC {
+    position: relative;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+.formQSC .contentImage {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+
+.formQS label {
+    color: #999;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.formQS .group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.formQS .bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.formQS .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+.formQS input {
+    font-size: 16px;
+    padding: 10px 0px 5px 10px;
+    display: block;
+    width: calc(100% - 170px);
+    border: none;
+    position: relative;
+    border-bottom: 1px solid #757575;
+    left: 170px;
+}
+.formQS input:required {
+    box-shadow: none;
+}
+
+.formQS .bar:before {
+    left: 50%;
+}
+.formQS .bar:after {
+    right: 50%;
+}
+
+.formQS .bar:before, .formQS .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.textFormMsj {
+    text-align: center;
+}
+span.msjPycca {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+.formQS .buttomForm {
+    width: 100%;
+    text-align: center;
+}
+.formQS .pyccaProductDetail__buyOptions__button:before{
+    display: none;
+}
+
+.formQS .pyccaProductDetail__buyOptions__button--buyProduct {
+    width: calc(25% - 70px);
+    margin-right: 10px;
+}
+
+.BannSupIMG {
+    text-align: center;
+    background: #019fa5;
+    display: block;
+}
+.BannSupIMG img {
+width: 100%;
+}
+.BannSupIMGMB {
+    display: none;
+}
+
+
+.pyccaCategory__vitrine__filterBox__filters {
+    display: none;
+}
+.pyccaCategory__aside , .pyccaDepartement__aside {
+   
+    display: block;
+    float: left;
+    width: 15%;
+}
+
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HideMarca, 
+.pyccaDepartement__aside ul.Marca.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideSistema-Operativo,
+.pyccaDepartement__aside ul.Sistema.Operativo.even.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HidePulgadas,
+.pyccaDepartement__aside ul.Pulgadas.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Contenido.HideModelo,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideColor,
+.pyccaDepartement__aside ul.Color.even.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HideDefinicion,
+.pyccaDepartement__aside ul.Definición.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HideColor,
+.pyccaDepartement__aside ul.Colores.even.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideColores,
+.pyccaDepartement__aside ul.Color.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideCapacidad,
+.pyccaDepartement__aside ul.Capacidad.even.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HidePiezas,
+.pyccaDepartement__aside ul.Piezas.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideNiveles,
+.pyccaDepartement__aside ul.Niveles.even.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HidePlazas,
+.pyccaDepartement__aside ul.Plazas.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HideCapacidad,
+.pyccaDepartement__aside ul.Capacidad.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.Especificaciones.de.Filtro.HideVelocidades,
+.pyccaDepartement__aside ul.Velocidades.Especificaciones.de.Filtro,
+.pyccaDepartement__aside h5.Hide.even.Especificaciones.de.Filtro.HideTipo-de-Lavado,
+.pyccaDepartement__aside ul.Tipo.de.Lavado.even.Especificaciones.de.Filtro    {
+    display: none;
+}
+.pyccaCategory__desktopAside, .menu-navegue , .pyccaDepartement__desktopMainBanners {
+    display: none;
+}
+.pyccaDepartement__mainDepartment section.featuredProducts .featuredProducts__title {
+    display: none;
+}
+.search-single-navigator h3 a {
+    background: rgb(68, 160, 165);
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    font-weight: 600;
+}
+.search-single-navigator h3 a:hover {
+    text-decoration: none;
+    background: #3f9498;
+}
+.search-single-navigator {
+    border-radius: 2px;
+    margin-top: 5px;
+    background: #fdfdfd;
+}
+.search-single-navigator h4 a {
+    font-size: 12px;
+    color: #000;
+    padding: 15px 10px;
+}
+.search-single-navigator h4 a:hover {
+    text-decoration: none;
+    color: #44a0a5;
+}
+.search-single-navigator h5 {
+    font-size: 14px;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+    background: rgb(68, 160, 165);
+    font-weight: 600;
+    color: #FFF;
+}
+.search-single-navigator ul li a {
+    font-size: 12px;
+    color: #000;
+    padding: 2px 15px;
+    display: block;
+}
+.search-single-navigator ul li a:before {
+    content: "- ";
+}
+.search-single-navigator ul li a:hover {
+   color: #00b8bf;
+   text-decoration: none;
+}
+
+li.filtro-ativo {
+    font-size: 12px;
+    padding: 0px 15px;
+    font-weight: 600;
+}
+a.ver-filtros {
+    font-size: 0px
+
+}
+a.ver-filtros::before  {
+    content: "← Ver todas las Opciones";
+    font-size: 11px;
+    padding: 15px;
+    color: #004e96;
+}
+a.ver-filtros:hover  {
+    text-decoration: none;
+    color: #00b8bf;
+}
+.pyccaCategory__vitrine__filterBox__orderBy {
+    float: left;
+    position: relative;
+    z-index: 9;
+    top: 25px;
+}
+.pyccaCategory__vitrine .pager .pages {
+    border-top: 0px;
+}
+
+.PyccaCarrusellPequenio .itemD p.flag.parael, 
+.PyccaCarrusellPequenio .itemD p.flag.paraella, 
+.PyccaCarrusellPequenio .itemD p.flag.destacados-infantil,
+.PyccaCarrusellPequenio .itemD p.flag.decoracion,
+.PyccaCarrusellPequenio .itemD p.flag.destacados-infantil, 
+.PyccaCarrusellPequenio .itemD p.flag.enviogratis ,
+.PyccaCarrusellPequenio .itemD p.flag.regaloninas ,  
+.PyccaCarrusellPequenio .itemD p.flag.regaloninos , 
+.PyccaCarrusellPequenio .itemD p.flag.infantil , 
+.PyccaCarrusellPequenio .itemD p.flag.regalobodas ,  
+.PyccaCarrusellPequenio .itemD p.flag.amantes-cocina {
+    top: 110px;
+    right: 7px;
+}
+.resultado-busca .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+    margin-bottom: 25px;
+    background: rgb(255, 255, 255);
+}
+
+.resultado-busca img.itemBannerBusquedaDestk , img.itemBannerBusquedaDestk {
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+
+.resultado-busca img.itemBannerMob , img.itemBannerMob {
+   display: none;
+}
+
+.resultado-busca h2.titulo-sessao {
+    display: none;
+}
+.PrecioConIva:before {
+    content: attr(data-content);
+    position: relative;
+    color: #c81923;
+    text-decoration: none;
+}
+
+.PrecioConIvaB:before {
+    content: attr(data-content);
+    position: relative;
+    color: #0f4b81;
+    text-decoration: none;
+}
+
+.row.backColc {
+    background: #d1dce6;
+    color: #074469;
+}
+
+.textColc {
+    background: #d1dce6;
+    color: #074469;
+    font-size: 29px;
+    line-height: 0.6;
+    padding: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.textColc b {
+    font-size: 37px;
+    padding-right: 0px;
+}
+
+img.imgCol {
+    width: 100%;
+    max-width: 320px;
+}
+
+.btnColchones {
+    background: #a81523;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: relative;
+    top: 30%;
+    box-shadow: 2px 2px 0px 0px #989898;
+}
+
+.btnColchones:hover {
+    text-decoration: none;
+    background: #960e1b;
+    color: #FFF;
+}
+
+
+.FormasPagoTop{
+    background: #000;
+    color: #FFF;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+a.BotonFPTop{
+    background: #d03d45;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin: 0px 20px;
+}
+
+
+
+.BackOfertas {
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    background: #ecf0f1;
+}
+
+.col-md-5 a {
+    text-decoration: none;
+}
+.col-md-5.select {
+    padding: 10px;
+}
+
+.col-md-5.select span {
+    text-transform: uppercase;
+    color: #525252;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    display: block;
+}
+.col-md-5.select .row {
+    padding: 0px !important;
+    margin: 0px;
+}
+.btnOfert {
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    width: 100%;
+    margin: 0px;
+    font-size: 11px;
+    padding: 6px 5px 1px;
+    box-shadow: 0px 7px 9px -7px #525252c4;
+    text-decoration: none;
+    background: #ffffff;
+}
+img.IMOferta {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.flotarBOferta {
+    position: fixed;
+    z-index: 99;
+    top: 157px;
+    left: 3%;
+}
+
+.col-md-5.select .btnOfert span {
+    text-transform: initial;
+    padding: 0px 20px;
+    text-align: initial;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btnOfert b {
+    font-size: 13px;
+    line-height: 1px;
+}
+
+.btnOfert:hover {
+    border-color: #e4e4e4;
+    background: #fefefe;
+    box-shadow: 0px 7px 9px -7px #cd2519;
+}
+b.Btnrojo {
+    color: #cd2519;
+}
+b.BtnAzul {
+    color: #224e96;
+}
+
+ul.Botones {
+    display: contents;
+}
+
+ul.Botones li {
+        width: 19%;
+    margin: 5px;
+   
+background: rgb(227,226,226);
+background: -moz-linear-gradient(180deg, rgba(227,226,226,1) 0%, rgba(227,226,226,0.544285463483146) 58%, rgba(234,234,234,0) 100%);
+background: -webkit-linear-gradient(180deg, rgba(227,226,226,1) 0%, rgba(227,226,226,0.544285463483146) 58%, rgba(234,234,234,0) 100%);
+background: linear-gradient(180deg, rgba(227,226,226,1) 0%, rgba(227,226,226,0.544285463483146) 58%, rgba(234,234,234,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e2e2",endColorstr="#eaeaea",GradientType=1);
+
+
+    padding: 16px 18px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+}
+ul.Botones li:hover {
+    background: rgb(200,200,200);
+background: -moz-linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(234,234,234,0.4178809691011236) 58%, rgba(234,234,234,0) 100%);
+background: -webkit-linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(234,234,234,0.4178809691011236) 58%, rgba(234,234,234,0) 100%);
+background: linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(234,234,234,0.4178809691011236) 58%, rgba(234,234,234,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c8c8c8",endColorstr="#eaeaea",GradientType=1);
+}
+ul.Botones li img {
+    padding: 5px 15px 5px 5px;
+    float: left;
+}
+ul.Botones li.Botonest4 a spam {
+    padding: 13px 0px;
+}
+ul.Botones li a {
+    text-decoration: none;
+}
+
+ul.Botones li a spam {
+    color: #000;
+    display: block;
+    padding: 13px 50px;
+    font-size: 18px;
+}
+
+
+/*Responsive*/
+
+@media screen and (min-width: 1200px){
+
+.ui-autocomplete.ui-menu {
+    width: 735px !important;
+}
+}
+@media screen and (max-width: 830px){ /*exclusivo para el formulario de credito*/
+.formClubPycca img {
+    width: 100%;
+}
+.FormasPagoTop {
+    margin-top: 28px;
+}
+
+a.BotonFPTop {
+  
+    display: block;
+    margin-top: 10px;
+}
+
+.BackOfertas .row {
+    margin-right: 0px;
+    margin-left: -1px;
+}
+
+.flotarBOferta {
+   
+    top: 60px;
+    left: 0%;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+	ul.Botones li {
+    width: 46%;
+    position: relative;
+    left: 18px;
+    margin: 2px;
+    padding: 6px 14px;
+   
+}
+ul.Botones li img {
+    padding: 5px 10px 5px 5px;
+    float: left;
+    width: 45%;
+}
+ul.Botones li.BotonesT1 a spam {
+    padding: 18px 7px;
+    float: right;
+    width: 55%;
+}
+ul.Botones li.Botonest4 {
+    width: 93%;
+}
+ul.Botones li.Botonest4 img {
+    width: 20%;
+}
+ul.Botones li a spam {
+    color: #000;
+    display: block;
+    padding: 13px 22px;
+    font-size: 14px;
+}
+ul.Botones li.BotonesT1 {
+    margin-left: 2px;
+}
+	
+	
+.TiendasEspec:before {
+   content: "";
+    background: url(https://www.pycca.com/arquivos/icono-store.png);
+    width: 30px;
+    background-repeat: no-repeat;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background-size: contain;
+}	
+img.iconoEtnia {
+    width: 80px;
+    margin-left: 10px;
+}
+li.TiendasEspec span {
+    position: relative;
+    margin-left: 30px;
+}
+	a.iconoMascotas {
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+a.iconoInfantil {
+		 
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+a.iconoMascotas:before  {
+	
+		 background: url(https://www.pycca.com/arquivos/icono-masco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    margin-left: 5px;
+    top: 6px;
+}
+	 a.iconoInfantil:before {
+		 background: url(https://www.pycca.com/arquivos/infantil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    margin-left: 5px;
+    top: 6px;
+}
+	
+	
+.itemBannerBusquedaDestk.BannerBusquedaDestkVideo{
+    display: none;
+}
+.itemBannerMob.BannerBusquedaDestkVideo {
+    display: inline-block;
+}
+img.mediaimgMarca {
+    float: initial;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mediaVIdeo {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 420px){
+
+    .row.backColc {
+        padding-bottom: 30px;
+    }
+
+    .textColc {
+       
+        font-size: 22px;
+        line-height: 1.2;
+        padding: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .textColc b {
+        font-size: 32px;
+    }
+    .btnColchones {
+        top: 40%;
+    }
+    .resultado-busca img.itemBannerBusquedaDestk , img.itemBannerBusquedaDestk {
+        display: none;
+    }
+    .consultadeSaldo{
+        height: 800px;
+    }
+    
+    .resultado-busca img.itemBannerMob , img.itemBannerMob {
+        display: block;
+        width: 100%;
+        max-width: 420px;
+        margin: auto;
+    }
+    .Envio .flag.sanvalentin {
+     
+        top: 13px;
+        right: 0px;
+       
+    }
+
+    .Envio  p.flag.parael , .Envio p.flag.paraella  , .Envio p.flag.decoracion  , .Envio p.flag.enviogratis ,.Envio p.flag.destacados-infantil
+    ,.Envio p.flag.regaloninas ,  .Envio p.flag.regaloninos , .Envio p.flag.infantil , .Envio p.flag.regalobodas , .Envio p.flag.amantes-cocina,
+    .Envio p.flag.landplaya
+     {
+ 
+      /*  left: 30%;*/
+        top: -33px;
+        left: 7px;
+        width: 69px;
+    }
+
+    .itemD p.flag.parael, .itemD p.flag.paraella, .itemD p.flag.destacados-infantil,.itemD p.flag.decoracion ,.itemD p.flag.destacados-infantil
+    , .itemD p.flag.enviogratis ,.itemD p.flag.regaloninas ,  .itemD p.flag.regaloninos , .itemD p.flag.infantil , .itemD p.flag.regalobodas ,
+      .itemD p.flag.amantes-cocina, .itemD p.flag.landplaya   {
+        top: 101px;
+        right: 7px;
+    }
+    .itemD p.flag.sanvalentin {
+        top: -9px;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    }
+    .etiqueta .flag.sanvalentin  {
+     top: 70px;
+    }
+
+    .pyccaProductAdded__message {
+     
+        top: 30px;
+        
+    }
+
+    h3.pyccaProductAdded__message__title {
+        font-size: 13px;
+    }
+    h4.pyccaProductAdded__message__cartSummary__title {
+        font-size: 13px;
+    }
+    .formQSC {
+        position: relative;
+        padding: 0px;
+    }
+   
+    .bannerPromo__message strong, .bannerPromo__message de {
+        font-size: 12px;
+    }
+    p.bannerPromo__message {
+       
+        padding: 10px 10px;
+    }
+ .pyccaCategory__vitrine__title, .pyccaCategory__vitrine .titulo-sessao {
+    font-size: 20px;
+    text-align: center;
+ }
+.pyccaHomeMobile_plastico {
+        margin: 0px;
+    }
+ .PlasticosDesktop{
+    display: none;
+}
+.PlasticosMobile {
+    display: block;
+}
+.PlasticosMobile .featuredProducts__title {
+    padding: 0px 30px;
+}
+.PlasticosMobile li a img {
+    width: 100%;
+    padding-bottom: 8px;
+}
+	
+.buy-button-normal a, button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+  padding: 10px 20px;
+}
+.itemD p.flag.exclusivo-online {
+   
+    top: 105px;
+    left: -7px;
+}
+.itemD .flag.LogoOfertas, .itemD .flag.ofertas, .itemD .flag.ofertas-hogar-mama , .itemD .flag.trasnochon, .itemD .flag.combos-plasticos , .itemD .flag.ofertas-muebles , .itemD .flag.ofertas-electro{
+   /* display: block; */
+    top: -3px;
+    left: -5px;
+    width: 40px;
+   }
+}
+
+.featuredProducts__list__item__image img:hover {
+    transform: scale3d(1.03,1.03,1.03);
+    transition: all .5s ease;
+}
+
+.headerSite__helpLinks__customerService::before {
+    display: inline-block;
+    font-family: "icomoon";
+    content: "";
+	width: 20px;
+    height: 20px;
+    vertical-align: middle;
+	background: url(/arquivos/SCliente-pycca.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.pyccaBusquedaVacia .featuredProducts {
+    display: none;
+}
+
+.pyccaBusquedaVacia ul.pyccaBusquedaVacia__departments {
+    display: none;
+}
+
+.pyccaBusquedaVacia .responsiveContainer_head h2 {
+    font-size: 60px;
+}
+
+.pyccaEstatico .pyccaEstatico .responsiveContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.pyccaEstatico .pyccaEstatico h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #5f5f5f;
+}
+.pyccaEstatico .pyccaEstatico ul ,.pyccaEstatico .pyccaEstatico ol{
+    margin-left: 20px;
+    padding: 5px 30px;
+}
+.pyccaEstatico .pyccaEstatico p{
+    padding: 5px 20px;
+}
+
+.pyccaEstaticoContactenos .pyccaEstatico h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #5f5f5f;
+}
+.pyccaEstaticoContactenos .pyccaEstatico .responsiveContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pyccaEstaticoContactenos .carrusellProductos1, .pyccaEstatico .carrusellProductos1 {
+    display: none;
+}
+
+.Ofertas img.itemBannerBusqueda.HALLO {
+    display: none;
+}
+.consultadeSaldo .carrusellProductos1 {
+    display: block;
+}
+
+/*hallowee*/
+/*
+.Ofertas p.bannerPromo__message {
+    margin: 0px;
+    background: #ff6600;
+    
+    display: none;
+}
+.Ofertas img.itemBannerBusqueda {
+    display: none;
+}
+.Ofertas img.itemBannerBusqueda.HALLO{
+    width: 90%;
+    margin-bottom: 0px;
+    max-width: 1350px;
+    display: block;
+    
+    margin: auto;
+}
+.Ofertas  button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+  
+    background: #ff6600;
+  
+    box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.Ofertas  button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #080808;
+    box-shadow: 2px 2px 0px 0px #ff6600;
+    text-decoration: none;
+}
+.Ofertas .search-single-navigator h3 a {
+    background: rgb(0, 0, 0);
+    color: #ffffff;}
+
+ .Ofertas .pyccaCategory__vitrine__box__actionButtons__viewProduct:hover {
+        background-color: #000000;
+    }
+.Ofertas button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+        background-color: #ff6600;}
+
+.Ofertas    .pyccaHomeBusqueda__mainBanner {
+
+    background: #000;
+}
+.Ofertas .headerSite__helpLinks {
+    background-color: #ff6600;
+}
+.Ofertas .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+
+    background: #ff6600;
+}
+*/
+/*colors*/
+
+img.HoverFreedom {
+    width: 100%;
+}
+
+li.pyccaMenuEscritorio__menuList__item.Colors {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    margin-left: -1px;
+    border-radius: 0px;
+    padding: 0px;
+}
+a.ColorsMenu img {
+    width: 85px;
+}
+.pyccaMenuEscritorio__menuList__item.Colors span a spam {
+  /*  font-family: initial;
+   */ font-size: 15px;
+}
+
+spam.Emotion {
+    color: #8D2A2E;
+}
+
+spam.Elegance {
+    color: #007D96;
+}
+
+spam.Freedom {
+    color: #F27E21;
+}
+spam.Authentic {
+    color: #685495;
+}
+.pyccaMenuEscritorio__menuList__item.Colors span a spam.Pure {
+    color: #F5ECCF;
+    font-size: 12px;
+}
+
+.pyccaMenuEscritorio__menuList__item__subMenuBox.menuColors {
+    padding: 0px;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col{
+    padding: 0px;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col {
+    text-align: center;
+    background: #fdfdfd;
+    vertical-align: middle;
+    height: 100px;
+    min-height: 50px;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover , 
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col:hover{
+    -webkit-transition: all .4s ease-in-out;
+}
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    padding: 44px 69px;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col.FusionCoral:hover{
+    background: #F16F63;  
+}
+.menuColors .FusionCoral .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    color: #F16F63;
+}
+.menuColors .FusionCoral .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover{
+      color: #FFF;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col.ArmoniaChic:hover{
+    background: #56BBC1;  
+}
+.menuColors .ArmoniaChic .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    color: #56BBC1;
+}
+.menuColors .ArmoniaChic .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover{
+      color: #FFF;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col.AzulNova:hover{
+    background: #223870;  
+}
+.menuColors .AzulNova .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    color: #223870;
+}
+.menuColors .AzulNova .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover{
+      color: #FFF;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col.TerraToscana:hover{
+    background: #883827;  
+}
+.menuColors .TerraToscana .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    color: #883827;
+}
+.menuColors .TerraToscana .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover{
+      color: #FFF;
+}
+
+.menuColors .pyccaMenuEscritorio__menuList__item__subMenuBox__col.DecoGlam:hover{
+    background: #AE8A41;  
+}
+.menuColors .DecoGlam .pyccaMenuEscritorio__menuList__item__subMenuBox__title a{
+    color: #AE8A41;
+}
+.menuColors .DecoGlam .pyccaMenuEscritorio__menuList__item__subMenuBox__title a:hover{
+      color: #FFF;
+}
+
+
+.row.PagColorsContenido {
+    padding: 2% 7%;
+}
+.PagColorsContenido .col-md-6 {
+    padding: 20px;
+}
+.PagColorsContenido .col-md-6 a div  {
+    padding: 0px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 28px;
+    height: 300px;
+    text-transform: uppercase;
+}
+.PagColorsContenido .col-md-6 a:hover  {
+   text-decoration: none;
+}
+img.LogoColors {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px;
+}
+
+.BannColors {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.BannColors spam {
+    font-size: 50px;
+}
+.BannColors spam.Pure {
+    color: #F5ECCF;
+    font-size: 25px;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.PagColorsContenido .col-md-6 a:hover .overlay {
+    opacity: 1;
+  }
+
+ 
+.BtnEmotion {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+.HoverEmotion {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+
+
+
+
+
+.BtnEmotion {
+    border: 1px solid #8D2A2E;
+    color: #8d2a2e;
+    background-image: url(/arquivos/a3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.BtnElegance {
+    border: 1px solid #007D96;
+    color: #007D96;
+    background-image: url(/arquivos/a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BtnElegance:hover {
+    background: #007D96;
+    color: #FFF;
+}
+
+.BtnFreedom {
+    border: 1px solid #F27E21;
+    color: #F27E21;
+    background-image: url(/arquivos/a5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BtnFreedom:hover {
+    background: #F27E21;
+    color: #FFF;
+}
+.BtnAuthentic {
+    border: 1px solid #685495;
+    color: #685495;
+    background-image: url(/arquivos/a1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BtnAuthentic:hover {
+    background: #685495;
+    color: #FFF;
+}
+.BtnPure {
+    border: 1px solid #F5ECCF;
+    color: #414042;
+    background-image: url(/arquivos/a4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.BtnPure:hover {
+    background: #F5ECCF;
+    color: #414042;
+   
+}
+
+.colors p.bannerPromo__message {
+    background: #878787;
+}
+
+.PagColorsContenido .col-md-6 a div .tex1 {
+    background: #e8e8e8ab;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 44%;
+    padding-top: 11px;
+}
+
+.PagColorsContenido .col-md-6 a div .tex2 {
+  
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 44%;
+    padding-top: 11px;
+}
+
+
+.PagColorsContenido .col-md-6 a div .HoverAuthentic .tex2 {
+    background: #685495;
+    color: #FFF;
+}
+.PagColorsContenido .col-md-6 a div .HoverEmotion .tex2 {
+    background: #8D2A2E;
+    color: #FFF;
+}
+.PagColorsContenido .col-md-6 a div .HoverElegance .tex2 {
+    background: #007D96;
+    color: #FFF;
+}
+.PagColorsContenido .col-md-6 a div .HoverFreedom .tex2 {
+    background: #F27E21;
+    color: #FFF;
+}
+.PagColorsContenido .col-md-6 a div .HoverPure .tex2 {
+    background: #F5ECCF;
+    color: #414042;
+}
+
+
+
+.PagColorsContenido .col-md-6 a div.overlay{
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+   
+  }
+
+
+iframe.videoColors {
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;
+    border: 1px solid #4c4c4c;
+}
+
+.BannerColorsFreedom {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+.ImgColors {
+    width: 100%;
+    max-width: 1350px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+   
+  }
+
+.freedom .bread-crumb , .freedom .titulo-sessao , .freedom .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+.freedom .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+}
+.freedom p.bannerPromo__message {
+    margin: 0px;
+    background: #F27E21;
+}
+.freedom .headerSite__helpLinks {
+    background-color: #7d7d7d;
+    border-top: 1px solid;
+}
+.freedom p.pyccaCategory__vitrine__box__price__best.bestProductPrice {
+    color: #F27E21;
+}
+.freedom button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #F27E21;
+    color: #fff;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+}
+.freedom button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #e87518;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+    text-decoration: none;
+}
+.freedom .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+      background: #f27e21;
+}
+
+.freedom   .pyccaCategory__aside {
+     margin-top: 5%;
+}
+.freedom .pyccaHomeBusqueda__mainBanner:hover .overlay {
+    opacity: 1;
+  }
+.freedom .pyccaHomeBusqueda__mainBanner {
+    position: relative;
+}
+
+
+.pure .bread-crumb , .pure .titulo-sessao , .pure .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+.pure .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+}
+.pure p.bannerPromo__message {
+    background: #F5ECCF;
+    color: #414042;
+}
+.pure .headerSite__helpLinks {
+    background-color: #7d7d7d;
+    border-top: 1px solid;
+}
+
+.pure button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #F5ECCF;
+    color: #414042;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+}
+.pure button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #efe5c5;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+    text-decoration: none;
+}
+.pure .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+      background: #F5ECCF;
+      color: #414042;
+}
+
+.pure   .pyccaCategory__aside {
+     margin-top: 5%;
+}
+.pure .pyccaHomeBusqueda__mainBanner:hover .overlay {
+    opacity: 1;
+  }
+.pure .pyccaHomeBusqueda__mainBanner {
+    position: relative;
+}
+
+.authentic .bread-crumb , .authentic .titulo-sessao , .authentic .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+.authentic .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+}
+.authentic p.bannerPromo__message {
+    margin: 0px;
+    background: #685495;
+}
+.authentic .headerSite__helpLinks {
+    background-color: #7d7d7d;
+    border-top: 1px solid;
+}
+.authentic p.pyccaCategory__vitrine__box__price__best.bestProductPrice {
+    color: #685495;
+}
+.authentic button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #685495;
+    color: #fff;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+}
+.authentic button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #5e4c86;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+    text-decoration: none;
+}
+.authentic .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+      background: #685495;
+}
+
+.authentic   .pyccaCategory__aside {
+     margin-top: 5%;
+}
+.authentic .pyccaHomeBusqueda__mainBanner:hover .overlay {
+    opacity: 1;
+  }
+.authentic .pyccaHomeBusqueda__mainBanner {
+    position: relative;
+}
+
+.Emotion .bread-crumb , .Emotion .titulo-sessao , .Emotion .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+.Emotion .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+}
+.Emotion p.bannerPromo__message {
+    margin: 0px;
+    background: #8D2A2E;
+}
+.Emotion .headerSite__helpLinks {
+    background-color: #7d7d7d;
+    border-top: 1px solid;
+}
+.Emotion p.pyccaCategory__vitrine__box__price__best.bestProductPrice {
+    color: #8D2A2E;
+}
+.Emotion button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #8D2A2E;
+    color: #fff;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+}
+.Emotion button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #752326;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+    text-decoration: none;
+}
+.Emotion .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+      background: #8D2A2E;
+}
+
+.Emotion   .pyccaCategory__aside {
+     margin-top: 5%;
+}
+.Emotion .pyccaHomeBusqueda__mainBanner:hover .overlay {
+    opacity: 1;
+  }
+.Emotion .pyccaHomeBusqueda__mainBanner {
+    position: relative;
+}
+  
+
+.Elegance .bread-crumb , .Elegance .titulo-sessao , .Elegance .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+.Elegance .pyccaHomeBusqueda__mainBanner {
+    text-align: center;
+}
+.Elegance p.bannerPromo__message {
+    margin: 0px;
+    background: #007D96;
+}
+.Elegance .headerSite__helpLinks {
+    background-color: #7d7d7d;
+    border-top: 1px solid;
+}
+.Elegance p.pyccaCategory__vitrine__box__price__best.bestProductPrice {
+    color: #007D96;
+}
+.Elegance button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    background: #007D96;
+    color: #fff;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+}
+.Elegance button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #027188;
+    box-shadow: 2px 2px 0px 0px #e6e7e8;
+    text-decoration: none;
+}
+.Elegance .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+      background: #007D96;
+}
+
+.Elegance   .pyccaCategory__aside {
+     margin-top: 5%;
+}
+.Elegance .pyccaHomeBusqueda__mainBanner:hover .overlay {
+    opacity: 1;
+  }
+.Elegance .pyccaHomeBusqueda__mainBanner {
+    position: relative;
+}
+.FooterColors {
+    background: #e6e7e8;
+    padding: 25px;
+    margin: 3% 0px;
+}
+.FooterColors .col-md-12 {
+    font-size: 25px;
+    text-align: center;
+}
+.FooterColors .col-md-12 spam {
+    font-size: 25px;
+}
+
+a.DescargarPDF {
+    background: url(/arquivos/REVISTA-transparente.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 90px 80px 70px;
+    font-size: 0px;
+}
+
+/*menuMovil-Colors*/
+.mm-menu .mm-listview .MenuMovilColors .mm-btn_next:after {
+    border-color: #636363;
+}
+.MenuMovilColors span a spam {
+    font-size: 16px;
+}
+li.MenuMovilColors.mm-listitem {
+    background: #ececec;
+}
+
+li.MenuMovilAuthentic.mm-listitem span::before{
+    background: #685495;
+    color: #685495;
+    content: "•";
+    padding: 0px 4px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: 0px 5px 0px 15px;
+}
+li.MenuMovilEmotion.mm-listitem span::before{
+    background: #8D2A2E;
+    color: #8D2A2E;
+    content: "•";
+    padding: 0px 4px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: 0px 5px 0px 15px;
+}
+li.MenuMovilElegance.mm-listitem span::before{
+    background: #007D96;
+    color: #007D96;
+    content: "•";
+    padding: 0px 4px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: 0px 5px 0px 15px;
+}
+li.MenuMovilFreedom.mm-listitem span::before{
+    background: #F27E21;
+    color: #F27E21;
+    content: "•";
+    padding: 0px 4px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: 0px 5px 0px 15px;
+}
+li.MenuMovilPure.mm-listitem span::before{
+    background: #F5ECCF;
+    color: #F5ECCF;
+    content: "•";
+    padding: 0px 4px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: 0px 5px 0px 15px;
+}
+
+.fondoplomo {
+    background: #f1f1f1;
+    padding: 20px 5px 5px;
+    text-align: center;
+    border: 5px solid #FFF;
+}
+.MargenCont {
+    padding: 15px 10px 30px 0px;
+}
+.CentradoCont {
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+}
+.MargenCont p {
+    text-align: justify;
+}
+.MargenCont h2 {
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+.fondoplomo h2 {
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d4d0d0;
+}
+.fondoplomo p {
+    text-align: justify;
+}
+
+
+/*end colors*/
+
+.OfertaColchones .bread-crumb , .OfertaColchones .titulo-sessao , .OfertaColchones .pyccaCategory__vitrine__filterBox{
+    display: none;
+}
+
+button.pyccaProductDetail__buyOptions__button.pyccaProductDetail__buyOptions__button--sendList {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1199px){
+.itemD .flag.ofertas, .itemD .flag.trasnochon, .itemD .flag.ofertas-hogar-mama, .itemD .flag.combos-plasticos, .itemD .flag.ofertas-muebles, .itemD .flag.ofertas-electro {
+    top: unset;
+    right: unset;
+    height: 45px;
+    width: 45px;
+    margin-left: -6px;
+    margin-top: -4px;
+}
+
+.itemD .flag.campanatresxdos {
+    top: unset;
+   
+    right: auto;
+    height: 60px;
+    width: 65px;
+}
+.etiqueta .flag.campanatresxdos  {
+    position: absolute;
+    top: 70px;
+    background-size: contain;
+    display: block;
+    height: 80px;
+    width: 115px;
+    z-index: 6;
+}
+
+
+button.pyccaCategory__vitrine__box__actionButtons__addToList.wishlistBtn {
+    display: none;
+}
+.maxnumber {
+    width: 17%;}
+
+}
+
+
+@media screen and (max-width: 1024px){
+    .headerSite__mainLogo {
+        height: 47px;
+    width: 145px;
+    position: relative;
+    top: 8px;
+    left: auto;
+    margin: auto;
+    }
+    .headerSite__helpLinks__myShoping {
+        display: none;
+    }
+    .headerSite__mobileSearch input[type="text"] {
+        border: none;
+        border: solid 1px #eaeaea;
+        height: 27px;
+        padding: 2px;
+        color: #6d6d6d;
+        position: absolute;
+        width: 100%;
+        background: #fdfdfd;
+        margin-top: 11px;
+        border-radius: 4px;
+        padding-left: 20px;
+    }
+    .pyccaBreadcrumb {
+        margin-top: 13px;
+    }
+  
+    a.headerSite__helpLinks__wishList {
+        display: none;
+    }
+    a.headerSite__minicartBox__checkoutLink {
+        display: none;
+    }
+    .pyccaProductDetail__detailPrice {
+       
+        width: 75% !important;
+    }
+.pyccaProductDetail__productBox {
+    width: 40% ;
+}
+.pyccaProductDetail__calculator__boxOptions--second {
+   
+    right: 11px;
+}
+.pyccaProductDetail__calculator__boxOptions__title {
+    padding-right: 3px;
+    font-size: 16px;
+}
+.pyccaProductDetail__buyOptions__button--buyProduct {
+    width: calc(100% - 160px) !important;
+    margin-right: -7px !important;
+}
+.pyccaProductDetail__selectOptions__qty__title {
+   
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+.pyccaProductDetail__selectOptions {
+    padding: 0px 0 !important;
+    
+}
+button.pyccaCategory__vitrine__box__actionButtons__addToList.wishlistBtn {
+    display: none ;
+}
+.CuotaFinal {
+    font-size: 20px ;
+}
+}
+@media screen and (max-width:768px){
+   
+
+    .pyccaCategory__aside , .pyccaDepartement__aside {
+        display: none;}
+
+.headerSite__tabletDesktopSearch {
+    padding-left: 65px;
+    width: 54%;
+}
+
+.pyccaHomeDestktop__anniversaryOffers__list__item {
+    width: 32%;
+}
+.VitrinaCuotas {
+    padding-left: 0%;
+}
+.maxnumber {
+    font-size: 8px;
+    width: 26%;
+}
+.CuotaFinal {
+    font-size: 18px;
+}
+
+.pyccaProductDetail__detailPrice {
+    width: 100% !important;
+}
+.pyccaProductDetail__selectOptions__qty__selector {
+    float: left;
+    width: 115%;
+    padding-left: 1px;
+}
+
+
+.pyccaProductDetail__buyOptions__button--buyProduct {
+    width: calc(100% - 120px) !important;
+    margin-right: -10px !important;
+}
+
+.etiqueta .flag.ofertas , .etiqueta .flag.trasnochon , .etiqueta .flag.ofertas-hogar-mama ,
+ .etiqueta .flag.combos-plasticos , .etiqueta .flag.ofertas-muebles ,
+  .etiqueta .flag.ofertas-electro  {
+     top: 120px;}
+
+
+}
+
+@media screen and (max-width:660px){
+    .resultado-busca .pyccaCategory__vitrine .sub, .Ofertas .pyccaCategory__vitrine .sub, .OfertaMuebles .pyccaCategory__vitrine .sub {
+     
+        height: 20px;
+        width: 100%;
+     
+        top: 0px;
+    }
+
+
+    .pyccaProductDetail__productBox {
+        width: 100% ;
+    }
+.VitrinaCuotas {
+    padding-left: 8%;
+}
+.Ajuste .CuotaFinal {
+   
+    font-size: 15px;
+    padding: 4px 7px 5px 10px;
+}
+.Ajuste .maxnumber {
+  
+    margin-left: 12px;
+}
+
+.pyccaProductDetail__selectOptions {
+    margin: 15px 0;
+
+    width: 100% !important;
+}
+}
+@media screen and (max-width: 420px){
+
+    .BannSupIMG {
+        display: none;
+    }
+    .BannSupIMGMB {
+        padding-top: 30px;
+        text-align: center;
+        background: #019fa5;
+        display: block;
+    }
+    .BannSupIMGMB img {
+        width: 100%;
+    }
+
+
+
+.productVitrine {
+        padding: 7px;
+}    
+
+.VitrinaCuotas {
+        padding-left: 15%;
+}
+
+
+.maxnumber {
+            width: 35%;
+            font-size: 9px;
+            padding: 3px;
+            padding-top: 2px;
+}
+.maxnumber b {
+    font-size: 18px;
+}
+.CuotaFinal {
+    width: 65%;
+    font-size: 18px;
+    padding: 2px 3px;
+}
+.PrecioFinal {
+    width: 100%;
+}
+
+	section.featuredProducts li {
+    width: 44%;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.slick-track li {
+    margin: 0px 0px;
+}
+.nav-tabs li a {
+    font-size: 14px;
+    color: #000;
+    padding: 10px 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px 4px 0px 0px;
+    margin-right: 0px;
+    border-bottom-color: #fff;
+    text-decoration: none;
+}
+.pyccaProductDetail__detailPrice__oldPrice {
+   
+    left: 64px;
+    top: 20px;
+}
+.pyccaProductDetail__detailPrice__bestPrice {
+  
+    top: -5px;
+    left: -66px;
+}
+.pyccaProductDetail__selectOptions__qty__selector {
+    float: left;
+    padding-left: 0px;
+    margin-bottom: 15px;
+}
+.pyccaProductDetail__calculator__boxOptions--second {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 47%;
+}
+
+}
+
+@media screen and (max-width: 400px){
+    .VitrinaCuotas {
+            padding-left: 0%;
+    }
+    
+    .maxnumber {
+                width: 35%;
+                font-size: 9px;
+                padding: 4px;
+                padding-top: 2px;
+    }
+
+}
+@media screen and (max-width: 320px){
+   
+    .maxnumber b {
+        font-size: 17px;
+    }
+.CuotaFinal {
+    font-size: 17px;
+ 
+}
+.buy-button-normal a, button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.nav-tabs li a {
+    font-size: 12px;
+    color: #000;
+padding: 10px 5px;}
+.pyccaProductDetail__selectOptions__qty__selector {
+    float: left;
+    padding-left: 0px;
+    margin-bottom: 17px;
+}
+.pyccaProductDetail__detailPrice__bestPrice {
+   
+    top: 0px;
+    left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 420px){
+
+    .pyccaCategory__aside {
+   
+        display: none;
+    }
+}
+
+.BancoPichincha .bread-crumb , .BancoPichincha .titulo-sessao ,
+.BancoPichincha .linea-infantil {
+    display: none;
+}
+
+.BancoPichincha .pyccaHomeBusqueda__mainBanner{
+    text-align: center;
+}
+
+.FeriaMuebles .bread-crumb , .FeriaMuebles .titulo-sessao ,
+.FeriaMuebles .linea-infantil {
+    display: none;
+}
+
+.FeriaMuebles .pyccaHomeBusqueda__mainBanner{
+    text-align: center;
+}
+
+
+
+.colors h3.featuredProducts__title, .OfertaMuebles .bread-crumb , .OfertaMuebles .titulo-sessao , .tresxdos .bread-crumb , .tresxdos .titulo-sessao{
+    display: none;
+}
+
+.OfertaMuebles .pyccaHomeBusqueda__mainBanner{
+    text-align: center;
+}
+
+
+.pyccalanding .pyccaHomeDestktop__mainBanner {
+    margin-bottom: 50px;
+    max-width: 1350px;
+    margin: auto;
+}
+
+.DestacadosLanding {
+    max-width: 1280px;
+    margin: auto;
+    
+    text-align: center;
+}
+
+
+div#ID3 {
+    background: #f0f0f0;
+    margin-bottom: 45px;
+}
+.Organizacion .pyccaHomeDestktop {
+    display: none;
+}
+
+.Organizacion .search-single-navigator h3 a {
+    background: #342e2d;
+    color: #ffffff;
+}
+.Organizacion .buy-button-normal a, .Organizacion button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+
+    background: #342e2d;
+    color: #fff;
+    border: 1px solid #df8f24;
+  
+    box-shadow: 0px 0px 0px 0px #019fa5;
+}
+.Organizacion .buy-button-normal a:hover,.Organizacion  button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+    background: #df8f24;
+    box-shadow: 0px 0px 0px 0px #014e96;
+    text-decoration: none;
+    color: #003;
+    border: 1px solid #003;
+}
+.Organizacion button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+    background-color: #342e2d;
+}
+.Organizacion .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+    color: #ffffff;
+    background: #342e2d;
+}
+
+
+
+.DestacadosLanding section.featuredProducts li {
+    margin-top: 30px;
+}
+.DestacadosLanding .featuredProducts__list__item__image {
+    border: none;
+    margin-bottom: 0;
+    border-radius: 50%;
+}
+.DestacadosLanding .itemD {
+    display: none;
+}
+
+
+.DestacadosLanding .featuredProducts__list__item__image img {
+    height: auto;
+    width: 100%;
+    border-radius: 30%;
+    padding: 30px;
+}
+.DestacadosLanding  .featuredProducts__list .slick-arrow {
+    top: 38%;}
+
+    .DestacadosLanding .featuredProducts__list__item__name__link {
+        color: #ffffff;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0px 23px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-shadow: 1px 2px 3px #000;
+    }
+
+    .DestacadosLanding  .VitrinaCuotas {
+        padding-left: 10%;
+        padding-bottom: 25px;
+        display: none;
+
+    }
+
+
+    .DestacadosLanding   p.featuredProducts__list__item__price__best.featuredProducts__list__item__price__best--promo.bestProductPrice {
+        color: #FFF;
+        font-size: 42px;
+    }
+
+    .DestacadosLanding .precioAnterior:before {
+        content: attr(data-content);
+        position: relative;
+    }
+    .DestacadosLanding .precioAnterior {
+        font-size: 11px;
+    }
+
+    .DestacadosLanding   button.featuredProducts__list__item__actionButtons__addToCar {
+        color: #fff;
+        background: #342e2d;
+        border: 1px solid #df8f24;
+         box-shadow: 0px 0px 0px 0px #FFF;
+    }
+
+    .DestacadosLanding   button.featuredProducts__list__item__actionButtons__addToCar:hover {
+        background: #df8f24;
+        color: #003;
+        box-shadow: 0px 0px 0px 0px #014e96;
+    }
+
+    .DestacadosLanding .featuredProducts__list .slick-arrow {
+        background-color: #df8f24de;}
+    .DestacadosLanding   .featuredProducts__list .slick-arrow:hover {
+        background: #df8f24;
+        
+        }
+        .DestacadosLanding    .featuredProducts__list .slick-dots li.slick-active {
+            background-color: #df8f24;}
+    .DestacadosLanding     .maxnumber b {
+        font-size: 40px;
+        text-shadow: 1px 2px 3px #272727;
+    }
+    .DestacadosLanding     .maxnumber {
+        width: 28%;
+        float: left;
+        line-height: 1;
+        text-align: center;
+        font-size: 10px;
+        padding: 2px;
+        padding-top: 3px;
+        text-shadow: 1px 2px 3px #272727;
+    }
+
+    .DestacadosLanding     .CuotaFinal {
+        width: 71%;
+        float: left;
+        font-size: 35px;
+        font-weight: 600;
+        border-left: 1px solid #797979;
+        padding: 2px 5px;
+        text-shadow: 1px 2px 3px #272727;
+    }
+.DestacadosLanding    .pyccaCategory__vitrine__box__actionButtons__addToList , .DestacadosLanding  .PrecioFinal ,
+.DestacadosLanding     button.pyccaCategory__vitrine__box__actionButtons__viewProduct{
+        display: none;
+    }
+
+    .DestacadosLanding .porcentaje {
+        position: absolute;
+    font-size: 17px;
+    background: #342e2d;
+    color: #ffcc09;
+    border-radius: 50%;
+    padding: 8px 0px;
+    width: 50px;
+    text-align: center;
+    font-weight: 800;
+    }
+    .DestacadosLanding     .porcentaje:before {
+        content: attr(data-content);
+        position: relative;
+    }
+   .porcentaje:after {
+        content: "Dscto.";
+        position: relative;
+        font-size: 10px;
+        display: block;
+        margin-top: -7px;
+    }
+
+    .pyccalanding .search-single-navigator h3 a {
+        background: #000033;
+        color: #ffffff;
+    }
+    .pyccalanding .buy-button-normal a, .pyccalanding button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    
+        background: #000033;
+        color: #fff;
+        border: 1px solid #df8f24;
+      
+        box-shadow: 0px 0px 0px 0px #019fa5;
+    }
+    .pyccalanding .buy-button-normal a:hover,.pyccalanding  button.pyccaCategory__vitrine__box__actionButtons__addToCar:hover {
+        background: #df8f24;
+        box-shadow: 0px 0px 0px 0px #014e96;
+        text-decoration: none;
+        color: #003;
+        border: 1px solid #003;
+    }
+
+    .pyccalanding  button.pyccaCategory__vitrine__box__actionButtons__viewProduct {
+        background-color: #000033eb;}
+
+        .pyccalanding    .pyccaCategory__vitrine .pager .pages li.pgCurrent {
+            color: #ffffff;
+            background: #000033eb;
+        }
+
+        .pyccalanding       .pyccaHomeDestktop {
+            display: none;
+        }
+        .pyccalanding .itemD .flag.ofertas {
+            /*background: url(http://pagos.pycca.com/assets/img/home/cyber/logo-cdto.png) no-repeat;*/
+            background-size: cover;
+     }
+        .HoverPromo {
+            border: 1px solid #afbdc8;
+            position: relative;
+            padding: 0px;
+            box-shadow: 0px 11px 20px 0px #acb4ba;
+            border-radius: 50%;
+        }
+
+        span.NavidadArbol:after {
+            content: " ";
+            background: url(/arquivos/arbolnav.png) no-repeat;
+            background-repeat: no-repeat;
+            margin-left: 5px;
+            padding: 0px 0px 0px 12px;
+            background-size: contain;
+        }
+   
+        .HoverPromo .HoverPromo2 {
+            height: 0;
+            margin: 0;
+            padding: 40px 0px 0;
+            color: #fff;
+            text-align: center;
+            transition: opacity .4s linear;
+            cursor: pointer;
+            position: absolute;
+            top: 0px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            background: #342e2d;
+            display: inline-table;
+            border-radius: 50%;
+            min-height: 215px;
+            width: 100%;
+        }
+   .HoverPromo .HoverPromo2:hover {
+    opacity: 1;
+   
+   }
+   a.linkPregunta {
+    background: #444b5d;
+    padding: 1px 7px;
+    border-radius: 50%;
+    margin-left: 7px;
+    color: #FFF;
+    position: relative;
+    top: 1px;
+}
+
+a.linkPregunta:hover {
+    color: #444b5d;
+    background: #FFF;
+    text-decoration: none;
+   
+}
+
+/* gris pagina web
+.pyccaHome
+{
+
+        filter: grayscale(100%) blur(0px);
+        -webkit-transition: all .5s ease-in-out;
+   
+}
+.aclararweb
+{
+
+        filter: grayscale(0%) blur(0px);
+        -webkit-transition: all 3s ease-in-out;
+   
+}
+ */
+
+/* DIas de tarjetas bancarias
+ p.featuredProducts__list__item__price__best.bestProductPrice:after {
+    content: "20% de Descuento con Tarjeta de Crédito";
+    display: block;
+    position: absolute;
+    height: 70px;
+    font-size: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+ p.featuredProducts__list__item__price__best.featuredProducts__list__item__price__best--promo.bestProductPrice:after {
+    display: none;
+}
+
+ p.featuredProducts__list__item__price__best.bestProductPrice:hover:after {
+    background: url(http://pagos.pycca.com/assets/img/ico/diasTarejta.jpg);
+    z-index: 9;
+    color: #FFF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e9e9e9ed;
+    background-position: center;
+    opacity: 0.96;
+}
+
+a.featuredProducts__list__item__image:after , a.pyccaCategory__vitrine__box__image:after {
+    content: "Descuento";
+    font-size: 0px;
+    background: url(http://pagos.pycca.com/assets/img/ico/DTC20.png);
+    height: 50px;
+    width: 100%;
+    top: -20px;
+    margin-bottom: -20px;
+    position: relative;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+
+.orders a.myo-cancel-btn.light-red.hover-red.pa0.bg-transparent.bn.cf.db.link.tl.w5.f6.fw4.flex.items-center.mb3 {
+    display: none;
+}
+
+.orders span.db.pv1.link.light-red.no-underline {
+    display: none;
+}
+
+.PrecioAnterior {
+    position: relative;
+    color: #908d8d;
+    font-size: 13px;
+    font-weight: 500;
+}
+.PrecioAnterior:after {
+    content: attr(data-content);
+    text-decoration: line-through;
+}
+.PrecioConIvaB {
+    height: 44px;
+    padding-top: 10px;
+}
+
+
+img.ImgDeskt , .col-md-5.RedesMovil  {
+    display: block;
+}
+img.ImgMov , .col-md-5.RedesMovil{
+    display: none;
+}
+ 
+.marco {
+    text-align: center;
+    max-width: 1280px;
+    margin: auto;
+    box-shadow: 0px 5px 21px -7px #252525;
+    height: 270px;
+    position: relative;
+    z-index: 2;
+}
+.SolCredito a img {
+    position: relative;
+    top: -53px;
+}
+
+.FormularioSuscrib {
+    background: #44a0a5;
+    position: relative;
+    top: -54px;
+    text-align: left;
+}
+.FormularioSuscrib img {
+    padding: 7px 20px 5px;
+    float: left;
+}
+.FormularioSuscrib h1 {
+    color: #FFF;
+    font-size: 19px;
+    padding: 10px 0px 0px 0px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.FormularioSuscrib p {
+    color: #ffffffd6;
+    padding: 4px;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+.formCasillas .col-md-4 {
+    float: left;
+    height: 65px;
+    background: #4bb1a4;
+    border-right: 3px solid #44a0a5;
+}
+.formCasillas .col-md-4:nth-child(4) {
+    background: #4aadbc;
+    border: 9px solid #43969b;
+    
+}
+.formCasillas .col-md-4:nth-child(4):hover {
+    background: #366367;
+}
+.formCasillas .col-md-4 input::placeholder {
+    color: #FFF;
+}
+.formCasillas .col-md-4 input {
+    background: #fff0;
+    color: #fff;
+    border: 0px;
+    border-bottom: 1px solid #ffffffab;
+    padding: 11px 5px;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.formCasillas .col-md-4 input[type="submit"] {
+    font-weight: 500;
+    font-size: 20px;
+    border: 0px;
+    padding: 8px 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.footerBack {
+    width: 100%;
+    background: #ebebeb;
+    position: relative;
+    top: -150px;
+    z-index: 0;
+    padding-top: 150px;
+    border-bottom: 10px solid #1b407d;
+    margin-bottom: -172px;
+}
+.footerSite {
+    margin-top: 20px;
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 35px;
+}
+.LogoFooter {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d2d2d2;
+}
+section.FooterMenu {
+    padding: 30px 15px 0px;
+}
+section.FooterMenu h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #585858;
+    font-weight: 600;
+}
+section.FooterMenu hr {
+    margin: 0px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+section.FooterMenu ul li a {
+    color: #696969;
+    font-size: 13px;
+}
+section.FooterMenu ul li a:hover {
+    color: #404040;
+    text-decoration: none;
+}
+
+section.FooterMenu ul li img {
+    padding: 5px;
+}
+section.FooterMenu h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #585858;
+    font-weight: 600;
+}
+section.FooterMenu .RedesSociales ul li img {
+    height: 35px;
+    margin-bottom: 8px;
+}
+section.FooterMenu h2 spam {
+    color: #ebebeb;
+    font-size: 15px;
+    border-left: 1px solid #c1c1c1;
+    margin-bottom: 5px;
+    position: relative;
+    left: 9px;
+}
+
+.responsiveContainer.FooterFormasPago {
+    
+    padding: 20px 0px;
+}
+
+section.FooterMenu .responsiveContainer.FooterFormasPago img {
+    max-height: 29px;
+    padding-right: 10px;
+    margin-top: 11px;
+}
+section.FooterMenu .responsiveContainer.FooterFormasPago img.TarjetaClubPycca {
+    max-height: 48px;
+    margin-top: 0px;
+}
+section.FooterMenu .responsiveContainer.FooterFormasPago .col-md-1.logoVtex img {
+    position: relative;
+    bottom: 0px;
+    vertical-align: bottom;
+    max-height: initial;
+    text-align: center;
+    top: 20px;
+    left: -36px;
+}
+
+.responsiveContainer.FooterTextInferior {
+    border-top: 1px solid #d2d2d2;
+    padding: 20px 0px 10px;
+}
+
+section.FooterMenu .FooterTextInferior h2 {
+    writing-mode: initial;
+    transform: initial;
+    font-weight: 600;
+    float: left;
+    padding: 0px 15px;
+    font-size: 12px;
+}
+ 
+section.FooterMenu .FooterTextInferior img {
+    position: relative;
+    top: -7px;
+}
+
+.containerImgVitrina.ContenidoIzqVitrina {
+    width: 50%;
+    float: left;
+}
+.ContenidoDerVitrina {
+    width: 50%;
+    float: right;
+}
+
+.featuredProducts__list__item3 {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: top;
+    width: 49%; }
+
+.featuredProducts__list__item3 .productVitrine {
+    display: flex;
+}
+
+.featuredProducts__list__item3 .productVitrine button.pyccaCategory__vitrine__box__actionButtons__addToCar {
+    padding: 10px;
+}
+
+.featuredProducts__list__item3 .productVitrine .itemD p.flag.exclusivo-online {
+    width: max-content;
+}
+@media screen and (max-width: 980px){
+.SolCredito a img {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    img.ImgDeskt ,.col-md-5.RedesMovil {
+        display: none;
+    }
+    img.ImgMov , .col-md-5.RedesMovil{
+        display: block;
+    }
+
+
+    .FormularioSuscrib img {
+        padding: 20px 20px 15px;
+    }
+
+    .footerBack {
+        padding: 340px 15px 0px;
+    }
+    .LogoFooter {
+       display: none;
+    }
+
+    .FormularioSuscrib .row {
+        margin: 0px;
+    }
+    .responsiveContainer.Menuinferior {
+        display: none;
+    }
+    .footerSite {
+        padding-top: 0px;
+        
+    text-align: center;
+    }
+
+    section.FooterMenu {
+        padding: 10px 15px 0px;
+    }
+
+    section.FooterMenu h3 {
+        font-size: 12px;
+        font-weight: 500;
+        
+    margin-top: 15px;
+    }
+    section.FooterMenu .responsiveContainer.FooterFormasPago img.TarjetaClubPycca {
+
+        margin-bottom: -10px;
+    }
+    section.FooterMenu .responsiveContainer.FooterFormasPago img.Discover {
+        max-height: 14px;
+    }
+    section.FooterMenu .responsiveContainer.FooterFormasPago img {
+        max-height: 23px;
+        padding-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    section.FooterMenu .FooterTextInferior h2 {
+        writing-mode: initial;
+        transform: initial;
+        font-weight: 500;
+        float: initial;
+        padding: 0px;
+        font-size: 11px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    section.FooterMenu .FooterTextInferior img {
+        position: relative;
+        top: 0px;
+        float: left;
+        max-height: 50px;
+        padding: 5px;
+    }
+    section.FooterMenu .FooterTextInferior img {
+        position: relative;
+        top: 9px;
+        float: left;
+        max-height: 50px;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        left: 17%;
+    }
+    section.FooterMenu .FooterTextInferior img.ImgMov {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    a.DescargarPDF {
+
+        padding: 31px 84px 73px;
+   
+    }
+    .OfertaMuebles .pyccaHomeBusqueda__mainBanner {
+        width: 100%;
+        height: 142px;
+        background: #d3ccc9;
+        margin-bottom: 22px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        padding-top: 15px;
+    }
+    .OfertaMuebles .pyccaHomeBusqueda__mainBanner b {
+        color: #a41d32;
+        font-size: 25px;
+    }
+}
+
+/*
+a.buy-button-normal-a2811 {
+    display: block;
+    border: 1px solid #FFF;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    background: #f3d9a4;
+    color: #4c3124;
+    text-decoration: none;
+    padding: 10px 9px;
+    border-radius: 3px;
+}
+*/
+.pyccaProductAdded__message__list__item__detail p.pyccaProductAdded__message__list__item__info {
+    display: none;
+}
